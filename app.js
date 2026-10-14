@@ -328,6 +328,57 @@
     const fallback = filename.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
     return { id: crypto.randomUUID(), name: (name || fallback || 'Conta importada').slice(0, 70), amount, dueDate, person: 'Casa', recurring: false, include: true };
   }
+  function normalizeAccountTitle(value) {
+    return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+  function parseCsvLine(line, delimiter) {
+    const cells = []; let value = ''; let quoted = false;
+    for (let index = 0; index < line.length; index++) {
+      const char = line[index];
+      if (char === '"' && quoted && line[index + 1] === '"') { value += '"'; index++; }
+      else if (char === '"') quoted = !quoted;
+      else if (char === delimiter && !quoted) { cells.push(value.trim()); value = ''; }
+      else value += char;
+    }
+    cells.push(value.trim());
+    return cells;
+  }
+  function parseCsvCandidates(source) {
+    const lines = source.replace(/^\uFEFF/, '').split(/\r?\n/).map(line => line.trim()).filter(line => line && !line.startsWith('#'));
+    if (lines.length < 2) throw new Error('O CSV precisa ter o cabeçalho e ao menos uma linha de conta.');
+    const firstLine = lines[0];
+    const delimiter = firstLine.includes(';') ? ';' : firstLine.includes('\t') ? '\t' : ',';
+    const headers = parseCsvLine(firstLine, delimiter).map(value => normalizeAccountTitle(value).replace(/\s+/g, ''));
+    const findColumn = (...names) => headers.findIndex(header => names.includes(header));
+    const nameIndex = findColumn('nome', 'conta', 'titulo', 'descricao');
+    const amountIndex = findColumn('valor', 'valorprevisto', 'amount');
+    const dateIndex = findColumn('vencimento', 'datavencimento', 'data', 'duedate');
+    const personIndex = findColumn('responsavel', 'quem', 'pessoa');
+    const recurringIndex = findColumn('recorrente', 'mensal', 'repetir', 'contafixa');
+    if (nameIndex < 0 || amountIndex < 0 || dateIndex < 0) throw new Error('Confira o cabeçalho do modelo: nome;valor;vencimento;responsavel;recorrente.');
+    const candidates = [];
+    for (const line of lines.slice(1)) {
+      const cells = parseCsvLine(line, delimiter);
+      const name = String(cells[nameIndex] || '').trim();
+      const amountText = String(cells[amountIndex] || '').trim();
+      const dateText = String(cells[dateIndex] || '').trim();
+      const dueDate = parseImportedDate(dateText);
+      if (!name || !dueDate) continue;
+      let amount = 0;
+      if (amountText) {
+        const normalized = amountText.replace(/\s/g, '').replace(/^R\$/i, '');
+        const parsed = parseAmount(normalized);
+        if (Number.isFinite(parsed)) amount = parsed;
+        else if (/^0+(?:[,.]0+)?$/.test(normalized)) amount = 0;
+        else continue;
+      }
+      const responsible = String(cells[personIndex] || '').trim();
+      const person = ['Casa', 'Letícia', 'Ronald'].find(option => normalizeAccountTitle(option) === normalizeAccountTitle(responsible)) || 'Casa';
+      const recurrence = normalizeAccountTitle(cells[recurringIndex] || '');
+      candidates.push({ id: crypto.randomUUID(), name: name.slice(0, 70), amount, dueDate, person, recurring: ['sim', 's', 'yes', 'true', '1', 'mensal', 'fixo', 'fixa'].includes(recurrence), include: true });
+    }
+    return candidates;
+  }
   function collectXmlRows(xmlDocument) {
     const nodes = [...xmlDocument.getElementsByTagName('*')];
     const rowNodes = nodes.filter(node => node.children.length > 0).map(node => ({
@@ -363,6 +414,7 @@
     const extension = file.name.split('.').pop().toLowerCase();
     if (extension === 'pdf') return readPdfLines(file);
     const source = await file.text();
+    if (extension === 'csv') return parseCsvCandidates(source);
     if (extension === 'html' || extension === 'htm') {
       const parsed = new DOMParser().parseFromString(source, 'text/html');
       const tableRows = [...parsed.querySelectorAll('tr')].map(row => [...row.querySelectorAll('th,td')].map(cell => cell.textContent.trim()).join(' | ')).filter(Boolean);
@@ -375,7 +427,7 @@
   }
   function renderImportCandidates() {
     const list = byId('import-candidates');
-    list.innerHTML = pendingImports.map((item, index) => `<article class="import-candidate" data-import-index="${index}"><label class="candidate-select"><input type="checkbox" data-import-include ${item.include ? 'checked' : ''}><span>Adicionar</span></label><label>Conta<input data-import-name maxlength="70" value="${escapeHtml(item.name)}"></label><div class="form-row"><label>Valor (R$)<input data-import-amount type="number" min="0" step="0.01" value="${Number(item.amount).toFixed(2)}"></label><label>Vencimento<input data-import-date type="date" value="${escapeHtml(item.dueDate)}"></label></div><label>Responsável<select data-import-person><option>Casa</option><option>Letícia</option><option>Ronald</option></select></label><label class="form-check"><input data-import-recurring type="checkbox"><span>Usar como conta fixa mensal</span></label></article>`).join('');
+    list.innerHTML = pendingImports.map((item, index) => `<article class="import-candidate" data-import-index="${index}"><label class="candidate-select"><input type="checkbox" data-import-include ${item.include ? 'checked' : ''}><span>Adicionar</span></label><label>Conta<input data-import-name maxlength="70" value="${escapeHtml(item.name)}"></label><div class="form-row"><label>Valor (R$)<input data-import-amount type="number" min="0" step="0.01" value="${Number(item.amount).toFixed(2)}"></label><label>Vencimento<input data-import-date type="date" value="${escapeHtml(item.dueDate)}"></label></div><label>Responsável<select data-import-person>${['Casa', 'Letícia', 'Ronald'].map(person => `<option ${item.person === person ? 'selected' : ''}>${person}</option>`).join('')}</select></label><label class="form-check"><input data-import-recurring type="checkbox" ${item.recurring ? 'checked' : ''}><span>Guardar título como conta mensal</span></label></article>`).join('');
     byId('import-summary').textContent = `${pendingImports.length} sugest${pendingImports.length === 1 ? 'ão encontrada' : 'ões encontradas'}. Confira descrição, valor e vencimento; escolha quais devem se repetir.`;
     byId('import-results').hidden = false;
   }
@@ -505,7 +557,8 @@
     try {
       const rows = await extractFileRows(importFile);
       const unique = new Map();
-      rows.map(row => candidateFromText(row, importFile.name)).filter(Boolean).forEach(item => unique.set(`${item.name}|${item.amount}|${item.dueDate}`, item));
+      const candidates = importFile.name.toLowerCase().endsWith('.csv') ? rows : rows.map(row => candidateFromText(row, importFile.name)).filter(Boolean);
+      candidates.forEach(item => unique.set(`${normalizeAccountTitle(item.name)}|${item.amount}|${item.dueDate}`, item));
       pendingImports = [...unique.values()];
       if (!pendingImports.length) {
         byId('import-message').textContent = 'Não encontrei linhas com descrição, valor e vencimento. Se o PDF for digitalizado como imagem, será necessário OCR ou digitar os dados.';
@@ -520,7 +573,7 @@
   });
   byId('save-imported-button').addEventListener('click', () => {
     const candidates = [...byId('import-candidates').querySelectorAll('.import-candidate')];
-    let savedCount = 0; let skippedCount = 0;
+    let savedCount = 0; let recurringCount = 0; let updatedCount = 0; let skippedCount = 0;
     candidates.forEach(card => {
       if (!card.querySelector('[data-import-include]').checked) return;
       const name = card.querySelector('[data-import-name]').value.trim();
@@ -529,7 +582,16 @@
       const person = card.querySelector('[data-import-person]').value;
       if (!name || !Number.isFinite(amount) || amount < 0 || !dueDate) { skippedCount++; return; }
       if (card.querySelector('[data-import-recurring]').checked) {
-        state.recurringBills.push({ id: crypto.randomUUID(), name, amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person });
+        const titleKey = normalizeAccountTitle(name);
+        const existing = state.recurringBills.find(item => normalizeAccountTitle(item.name) === titleKey);
+        if (existing) {
+          const dueMonth = monthKey(dueDate);
+          existing.name = name; existing.amount = amount; existing.dueDay = Number(dueDate.slice(8, 10)); existing.person = person;
+          if (dueMonth < existing.startMonth) existing.startMonth = dueMonth;
+          state.billAmounts[`repeat:${existing.id}:${dueMonth}`] = amount;
+          updatedCount++;
+        } else state.recurringBills.push({ id: crypto.randomUUID(), name, amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person });
+        recurringCount++;
       } else state.bills.push({ id: crypto.randomUUID(), name, amount, dueDate, person, paid: false });
       savedCount++;
     });
@@ -537,8 +599,8 @@
     billFilter = 'pending';
     document.querySelectorAll('[data-bill-filter]').forEach(button => button.classList.toggle('active', button.dataset.billFilter === billFilter));
     saveState();
-    byId('import-message').textContent = `${savedCount} conta${savedCount === 1 ? '' : 's'} adicionada${savedCount === 1 ? '' : 's'}${skippedCount ? `; ${skippedCount} ignorada${skippedCount === 1 ? '' : 's'} por dados inválidos` : ''}.`;
-    toast('Contas adicionadas ao checklist.');
+    byId('import-message').textContent = `${savedCount} conta${savedCount === 1 ? '' : 's'} processada${savedCount === 1 ? '' : 's'}${updatedCount ? `; ${updatedCount} título${updatedCount === 1 ? '' : 's'} recorrente${updatedCount === 1 ? ' atualizado' : 's atualizados'}` : ''}${skippedCount ? `; ${skippedCount} ignorada${skippedCount === 1 ? '' : 's'} por dados inválidos` : ''}.`;
+    toast(recurringCount ? 'Contas adicionadas e títulos mensais guardados.' : 'Contas adicionadas ao checklist.');
     pendingImports = [];
     byId('import-results').hidden = true;
   });
