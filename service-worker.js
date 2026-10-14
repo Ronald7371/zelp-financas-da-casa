@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nosso-mes-static-v16';
+const CACHE_NAME = 'nosso-mes-static-v17';
 const APP_SHELL = ['./', './index.html', './styles.css', './compact.css', './app.js', './backend-config.js', './manifest.json', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png'];
 const APP_SHELL_PATHS = new Set(APP_SHELL.map(path => new URL(path, self.registration.scope).pathname));
 
