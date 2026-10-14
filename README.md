@@ -4,6 +4,8 @@ Aplicativo web responsivo em HTML, CSS e JavaScript puro. Não precisa de Play S
 
 ## Estrutura
 
+No repositório GitHub, o conteúdo desta pasta está publicado na raiz; `pwa/` é apenas o caminho usado no computador.
+
 ```text
 pwa/
 ├── index.html          Tela, formulários e navegação
