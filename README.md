@@ -44,7 +44,7 @@ pwa/
 
 O login e a sincronização usam Supabase Auth e uma tabela protegida por Row Level Security. Usem a mesma conta da casa nos dois aparelhos. Antes da configuração, o app continua em modo local. Siga `supabase/README.md` para criar o backend e preencher `backend-config.js`. A planilha Google não é lida nem alterada por esta versão.
 
-O plano grátis do Supabase inclui autenticação e banco de dados dentro dos limites publicados, mas projetos gratuitos podem pausar após uma semana sem atividade. A hospedagem PWA também deve ser HTTPS; por exemplo, Cloudflare Pages oferece um plano gratuito com limites publicados. Confira os planos e limites atuais antes de depender deles continuamente.
+O plano grátis do Supabase inclui autenticação e banco de dados dentro dos limites publicados, mas projetos gratuitos podem pausar após uma semana sem atividade. A interface está publicada pelo GitHub Pages em `https://ronald7371.github.io/zelp-financas-da-casa/`; cada atualização enviada à branch `main` gera uma nova publicação. O repositório foi tornado público para usar o Pages no plano gratuito, então o código pode ser visto e copiado por qualquer pessoa. Não guarde dados financeiros, senhas ou chaves privadas no repositório.
 
 ## Servir e instalar
 
