@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f7f3">
+  <meta name="description" content="Organize as finanças da casa, acompanhe contas e encontre oportunidades para economizar.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Zelp">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="compact.css">
+  <title>Zelp — Finanças da casa</title>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Zelp, início">
+        <span class="brand-mark"><img src="icons/icon.svg" alt="" aria-hidden="true"></span>
+        <span><strong>Zelp</strong><small>finanças da casa</small></span>
+      </a>
+      <div class="top-actions">
+        <span id="sync-status" class="sync-status"><i></i> Só neste aparelho</span>
+        <button id="account-button" class="account-button" type="button">Entrar</button>
+        <button id="install-button" class="icon-button install-button" hidden aria-label="Instalar aplicativo" title="Instalar aplicativo">↓</button>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="welcome-row">
+        <div>
+          <p class="eyebrow">UM PASSO DE CADA VEZ</p>
+          <h1>Planos tranquilos<br>começam por aqui.</h1>
+        </div>
+        <label class="month-picker">MÊS
+          <input id="month-picker" type="month" aria-label="Escolher mês">
+        </label>
+      </section>
+
+      <section class="summary-grid" aria-label="Resumo do mês">
+        <article class="summary-card balance-card">
+          <span class="card-label">Saldo do mês</span>
+          <strong id="balance-value">R$ 0,00</strong>
+          <span class="card-note" id="balance-note">Entradas menos saídas</span>
+          <span class="card-note pending-bills-summary" id="pending-bills-summary">Contas pendentes: R$ 0,00</span>
+        </article>
+        <article class="summary-card">
+          <span class="card-label">Entradas</span>
+          <strong id="income-value">R$ 0,00</strong>
+          <span class="card-note">Dinheiro que entrou</span>
+        </article>
+        <article class="summary-card">
+          <span class="card-label">Saídas</span>
+          <strong id="expense-value">R$ 0,00</strong>
+          <span class="card-note">Dinheiro que saiu</span>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <div class="main-column">
+          <section class="panel bills-panel transactions-panel combined-activity-panel" id="contas">
+            <div class="section-heading">
+              <div><p class="eyebrow">FIQUE EM DIA</p><h2>Contas e movimentações</h2><small id="bills-count" class="bills-count"></small></div>
+              <div class="bill-actions"><button class="text-button" data-open="import-dialog">Importar</button><button class="text-button" data-open="bill-dialog">+ Conta</button><button class="text-button" data-open="transaction-dialog">+ Lançamento</button><button id="reset-data-button" class="text-button reset-data-button" type="button">Começar do zero</button></div>
+            </div>
+            <h3 class="activity-subheading">Contas a pagar</h3>
+            <div class="bill-filters" role="group" aria-label="Filtrar contas">
+              <button type="button" class="active" data-bill-filter="pending">Falta pagar</button>
+              <button type="button" data-bill-filter="paid">Pagas</button>
+              <button type="button" data-bill-filter="all">Todas</button>
+            </div>
+            <p class="bill-help">Marque quando pagar. Estas contas são lembretes; para entrar nos totais, registre a saída em “+ Lançamento”.</p>
+            <div id="bills-list" class="bills-list"></div>
+            <div class="activity-divider"></div>
+            <div class="activity-transactions-heading">
+              <div><p class="eyebrow">MOVIMENTAÇÕES</p><h3>O que já entrou e saiu</h3><small id="transactions-count" class="transactions-count"></small></div>
+            </div>
+            <div id="transactions-list" class="transactions-list"></div>
+          </section>
+        </div>
+
+        <aside class="side-column">
+          <section class="panel spending-panel">
+            <div class="section-heading compact"><div><p class="eyebrow">ONDE FOI</p><h2>Maiores gastos</h2></div></div>
+            <div id="spending-list" class="spending-list"></div>
+          </section>
+          <section class="tip-card">
+            <span class="tip-spark" aria-hidden="true">✳</span>
+            <p class="eyebrow">IDEIA PARA ECONOMIZAR</p>
+            <h2 id="tip-title">Pequenos passos contam.</h2>
+            <p id="tip-copy">Registre entradas e saídas para receber sugestões com base nos gastos da casa.</p>
+          </section>
+        </aside>
+      </section>
+      <p id="privacy-note" class="privacy-note">Os dados ficam neste aparelho. A sincronização entre celulares será ativada após configurar o backend.</p>
+    </main>
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <a class="nav-item active" href="#inicio"><span aria-hidden="true">⌂</span>Início</a>
+      <button class="nav-item" data-open="transaction-dialog"><span aria-hidden="true">＋</span>Novo</button>
+      <a class="nav-item" href="#contas" id="nav-bills"><span aria-hidden="true">▤</span>Contas</a>
+    </nav>
+  </div>
+
+  <dialog id="transaction-dialog" class="form-dialog">
+    <form id="transaction-form" method="dialog">
+      <div class="dialog-heading"><div><p class="eyebrow">NOVO REGISTRO</p><h2>Movimentação</h2></div><button class="close-button" type="button" data-close aria-label="Fechar">×</button></div>
+      <div class="segmented"><label><input type="radio" name="type" value="expense" checked><span>Saída</span></label><label><input type="radio" name="type" value="income"><span>Entrada</span></label></div>
+      <label>Descrição<input name="description" required maxlength="70" placeholder="Ex.: mercado, salário"></label>
+      <div class="form-row"><label>Valor (R$)<input name="amount" required inputmode="decimal" placeholder="0,00"></label><label>Data<input name="date" required type="date"></label></div>
+      <div class="form-row"><label>Categoria<select name="category"><option>Moradia</option><option>Financiamento</option><option>Alimentação</option><option>Carro/Moto</option><option>Cartão de crédito</option><option>Dízimos/Ofertas</option><option>Transporte</option><option>Saúde</option><option>Lazer</option><option>Educação</option><option>Salário</option><option>Outros</option></select></label><label>Quem<select name="person"><option>Casa</option><option>Letícia</option><option>Ronald</option></select></label></div>
+      <button class="primary-button" type="submit">Salvar lançamento</button>
+    </form>
+  </dialog>
+
+  <dialog id="bill-dialog" class="form-dialog">
+    <form id="bill-form" method="dialog">
+      <div class="dialog-heading"><div><p class="eyebrow">LEMBRETE</p><h2>Adicionar conta</h2></div><button class="close-button" type="button" data-close aria-label="Fechar">×</button></div>
+      <label>Nome da conta<input name="name" required maxlength="70" placeholder="Ex.: luz, água, condomínio"></label>
+      <div class="form-row"><label>Valor previsto (R$)<input name="amount" inputmode="decimal" placeholder="0,00"></label><label>Vencimento<input name="dueDate" required type="date"></label></div>
+      <label>Responsável<select name="person"><option>Casa</option><option>Letícia</option><option>Ronald</option></select></label>
+      <label class="form-check"><input name="recurring" type="checkbox"><span>Repetir esta conta todos os meses</span></label>
+      <button class="primary-button" type="submit">Salvar conta</button>
+    </form>
+  </dialog>
+  <dialog id="import-dialog" class="form-dialog import-dialog">
+    <div class="dialog-heading"><div><p class="eyebrow">IMPORTAÇÃO LOCAL</p><h2>Ler contas do arquivo</h2></div><button class="close-button" type="button" data-close aria-label="Fechar">×</button></div>
+    <p class="import-help">Escolha um XML, HTML ou PDF. O arquivo é lido neste aparelho; revise os dados antes de adicionar ao checklist. PDF precisa que o app esteja aberto por HTTPS. Arquivos digitalizados como imagem precisam de OCR.</p>
+    <label class="upload-picker">Escolher arquivo<input id="import-file" type="file" accept=".xml,.html,.htm,.pdf,application/xml,text/xml,text/html,application/pdf"></label>
+    <p id="import-file-name" class="import-file-name">Nenhum arquivo escolhido.</p>
+    <button id="read-file-button" class="primary-button" type="button" disabled>Ler arquivo e sugerir contas</button>
+    <p id="import-message" class="import-message" role="status" aria-live="polite"></p>
+    <section id="import-results" class="import-results" hidden>
+      <p id="import-summary" class="import-help"></p>
+      <div id="import-candidates" class="import-candidates"></div>
+      <button id="save-imported-button" class="primary-button" type="button">Adicionar selecionadas ao checklist</button>
+    </section>
+  </dialog>
+  <dialog id="auth-dialog" class="form-dialog auth-dialog">
+    <form id="auth-form">
+      <div class="dialog-heading"><div><p class="eyebrow">CONTA DA CASA</p><h2 id="auth-title">Entrar</h2></div><button class="close-button" id="auth-close" type="button" data-close aria-label="Fechar">×</button></div>
+      <p class="auth-help">Use a mesma conta nos dois celulares para ver os mesmos dados.</p>
+      <label>E-mail<input id="auth-email" type="email" autocomplete="email" required placeholder="voce@email.com"></label>
+      <label>Senha<input id="auth-password" type="password" autocomplete="current-password" minlength="8" required placeholder="No mínimo 8 caracteres"></label>
+      <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+      <button id="auth-submit" class="primary-button" type="submit">Entrar</button>
+      <button id="auth-mode-toggle" class="text-button auth-toggle" type="button">Criar conta da casa</button>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="backend-config.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
