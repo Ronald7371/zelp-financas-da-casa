@@ -1,133 +1,631 @@
-YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éí×~ùí:-jZ.¶›­–)Ş³R‚‚’Óâ°¢6öç7B5Dõ$Uô´U’Òvæ÷76òÖÖW3¦FF§cs°¢6öç7B4ÄõTEôõtäU%ô´U’ÒGµ5Dõ$Uô´U—Ó¦6Æ÷VBÖ÷væW&°¢6öç7BÖöæW’ÒæWr–çFÂäçVÖ&W$f÷&ÖB‚wBÔ%"rÂ²7G–ÆS¢v7W'&Væ7’rÂ7W'&Væ7“¢t%$ÂrÒ“°¢6öç7BFöF’ÒæWrFFR‚“°¢6öç7B—6õFöF’ÒÆö6ÄFFR‡FöF’“°¢6öç7B'”–BÒ–BÓâFö7VÖVçBævWDVÆVÖVçD'”–B†–B“°¢6öç7BV×G•7FFRÒ‚’Óâ‡²G&ç67F–öç3¢µÒÂ&–ÆÇ3¢µÒÂ&V7W'&–æt&–ÆÇ3¢µÒÂ&–ÆÅ–ÖVçG3¢·ÒÂ&–ÆÄÖ÷VçG3¢·ÒÒ“°¢ÆWB7FFRÒÆöE7FFR‚“°¢ÆWB&–ÆÄf–ÇFW"ÒwVæF–ærs°¢ÆWB–ç7FÆÅ&ö×BÒçVÆÃ°¢ÆWBFö7EF–ÖW#°¢ÆWB–×÷'Df–ÆRÒçVÆÃ°¢ÆWBVæF–æt–×÷'G2ÒµÓ°¢ÆWB6Æ÷VBÒçVÆÃ°¢ÆWB6Æ÷VEW6W"ÒçVÆÃ°¢ÆWBWF„ÖöFRÒw6–væ–âs°¢ÆWB6Æ÷VEF–ÖW"ÒçVÆÃ°¢ÆWB6Æ÷VD6†ææVÂÒçVÆÃ°¢ÆWB6Æ÷VD'W7’ÒfÇ6S° ¢gVæ7F–öâÆö6ÄFFR†FFR’°¢6öç7B’ÒFFRævWDgVÆÅ–V"‚“²6öç7BÒÒ7G&–ær†FFRævWDÖöçF‚‚’²’çE7F'Bƒ"Âsr“²6öç7BBÒ7G&–ær†FFRævWDFFR‚’’çE7F'Bƒ"Âsr“°¢&WGW&âG·—ÒÒG¶×ÒÒG¶GÖ°¢Ğ¢gVæ7F–öâÆöE7FFR‚’°¢G'’°¢6öç7B6fVBÒ¥4ôâç'6R†Æö6Å7F÷&vRævWD—FVÒ…5Dõ$Uô´U’’“°¢6öç7BG&ç67F–öç2Ò‡6fVBçG&ç67F–öç2ÇÂµÒ’æÖ†—FVÒÓâ°¢–b†—FVÒçG—RÓÒvW‡Vç6Rr’&WGW&â—FVÓ°¢6öç7BFW67&—F–öâÒ7G&–ær†—FVÒæFW67&—F–öâÇÂrr’ææ÷&ÖÆ—¦R‚tädBr’ç&WÆ6R‚õµÇS3ÕÇS3feÒörÂrr’çFôÆö6ÆTÆ÷vW$66R‚wBÔ%"r“°¢ÆWB6FVv÷'’Ò—FVÒæ6FVv÷'“°¢–b‚õæf–ææ6–ÖVçFõÆ"òçFW7B†FW67&—F–öâ’’6FVv÷'’Òtf–ææ6–ÖVçFòs°¢VÇ6R–b‚õæÆ–ÖVçF6õÆ"òçFW7B†FW67&—F–öâ’’6FVv÷'’ÒtÆ–ÖVçF:|:6òs°¢VÇ6R–b‚õâ†F—¦–Ö÷ÆöfW'F•Æ"òçFW7B†FW67&—F–öâ’’6FVv÷'’ÒtL:×¦–Ö÷2ôöfW'F2s°¢VÇ6R–b‚õÆ"†6'&÷ÆÖ÷Fò•Æ"òçFW7B†FW67&—F–öâ’’6FVv÷'’Òt6'&òôÖ÷Fòs°¢VÇ6R–b‚õæ6'FõÆ"òçFW7B†FW67&—F–öâ’’6FVv÷'’Òt6'L:6òFR7,:–F—Fòs°¢&WGW&â6FVv÷'’ÓÓÒ—FVÒæ6FVv÷'’ò—FVÒ¢²ââæ—FVÒÂ6FVv÷'’Ó°¢Ò“°¢&WGW&â²ââæV×G•7FFR‚’Âââç6fVBÂG&ç67F–öç2Â&–ÆÇ3¢'&’æ—4'&’‡6fVBæ&–ÆÇ2’ò6fVBæ&–ÆÇ2¢µÒÂ&V7W'&–æt&–ÆÇ3¢6fVBç&V7W'&–æt&–ÆÇ2ÇÂµÒÂ&–ÆÅ–ÖVçG3¢6fVBæ&–ÆÅ–ÖVçG2ÇÂ·ÒÂ&–ÆÄÖ÷VçG3¢6fVBæ&–ÆÄÖ÷VçG2ÇÂ·ÒÓ°¢Ğ¢6F6‚²&WGW&âV×G•7FFR‚“²Ğ¢Ğ¢gVæ7F–öâ6fU7FFR‚’°¢Æö6Å7F÷&vRç6WD—FVÒ…5Dõ$Uô´U’Â¥4ôâç7G&–æv–g’‡7FFR’“²&VæFW"‚“°¢–b†6Æ÷VBbb6Æ÷VEW6W"’°¢6ÆV%F–ÖV÷WB†6Æ÷VEF–ÖW"“°¢6Æ÷VEF–ÖW"Ò6WEF–ÖV÷WB‚‚’Óâ7–æ46Æ÷VE7FFR‚’ÂCS“°¢6WE7–æ57FGW2‚u6ÇfòæW7FR&VÆ†ş(
-br“°¢Ğ¢Ğ¢gVæ7F–öâ6WE7–æ57FGW2†ÖW76vR’²'”–B‚w7–æ2×7FGW2r’æ–ææW$…DÔÂÒÆ“ãÂö“âG¶W66T‡FÖÂ†ÖW76vR—Ö²Ğ¢gVæ7F–öâæ÷&ÖÆ—¦T6Æ÷VE7FFR†FF’°¢–b‚FFÇÂG—VöbFFÓÒvö&¦V7Br’&WGW&âV×G•7FFR‚“°¢&WGW&â²ââæV×G•7FFR‚’ÂââæFFÂG&ç67F–öç3¢'&’æ—4'&’†FFçG&ç67F–öç2’òFFçG&ç67F–öç2¢µÒÂ&–ÆÇ3¢'&’æ—4'&’†FFæ&–ÆÇ2’òFFæ&–ÆÇ2¢µÒÂ&V7W'&–æt&–ÆÇ3¢'&’æ—4'&’†FFç&V7W'&–æt&–ÆÇ2’òFFç&V7W'&–æt&–ÆÇ2¢µÒÂ&–ÆÅ–ÖVçG3¢FFæ&–ÆÅ–ÖVçG2bbG—VöbFFæ&–ÆÅ–ÖVçG2ÓÓÒvö&¦V7BròFFæ&–ÆÅ–ÖVçG2¢·ÒÂ&–ÆÄÖ÷VçG3¢FFæ&–ÆÄÖ÷VçG2bbG—VöbFFæ&–ÆÄÖ÷VçG2ÓÓÒvö&¦V7BròFFæ&–ÆÄÖ÷VçG2¢·ÒÓ°¢Ğ¢7–æ2gVæ7F–öâ7F÷&T6Æ÷VE7FFR‡6æ6†÷BÒ7FFR’°¢–b‚6Æ÷VBÇÂ6Æ÷VEW6W"’&WGW&ã°¢6öç7B²W'&÷"ÒÒv—B6Æ÷VBæg&öÒ‚v†÷W6V†öÆEöFFr’çW6W'B‡²W6W%ö–C¢6Æ÷VEW6W"æ–BÂFF¢6æ6†÷BÂWFFVEöC¢æWrFFR‚’çFô•4õ7G&–ær‚’Ò“°¢–b†W'&÷"’F‡&÷rW'&÷#°¢Ğ¢7–æ2gVæ7F–öâ7–æ46Æ÷VE7FFR‚’°¢–b‚6Æ÷VBÇÂ6Æ÷VEW6W"’&WGW&ã°¢–b†6Æ÷VD'W7’’²6Æ÷VEF–ÖW"Ò6WEF–ÖV÷WB‚‚’Óâ7–æ46Æ÷VE7FFR‚’ÂS“²&WGW&ã²Ğ¢6Æ÷VD'W7’ÒG'VS°¢6öç7B6æ6†÷BÒ¥4ôâç'6R„¥4ôâç7G&–æv–g’‡7FFR’“°¢G'’°¢v—B7F÷&T6Æ÷VE7FFR‡6æ6†÷B“°¢6WE7–æ57FGW2‚u6–æ7&öæ—¦Fòr“°¢Ò6F6‚†W'&÷"’°¢6WE7–æ57FGW2‚twV&FæFò6öæWŒ:6òr“°¢6öç6öÆRæW'&÷"‚tfÆ†ò6–æ7&öæ—¦#¢rÂW'&÷"“°¢Òf–æÆÇ’²6Æ÷VD'W7’ÒfÇ6S²Ğ¢Ğ¢7–æ2gVæ7F–öâ&W6WDFF‚’°¢6öç7B6öæf—&ÖVBÒ6öæf—&Ò‚tv"FöF÷2÷2Æì:vÖVçF÷2Â6öçF2FòÜ:§2Â6öçF2&V6÷'&VçFW2R&Vv—7G&÷2FRvÖVçFóòW76:|:6òì:6òöFR6W"FW6fV—Fâr“°¢–b‚6öæf—&ÖVB’&WGW&ã° ¢6ÆV%F–ÖV÷WB†6Æ÷VEF–ÖW"“°¢v†–ÆR†6Æ÷VD'W7’’v—BæWr&öÖ—6R‡&W6öÇfRÓâ6WEF–ÖV÷WB‡&W6öÇfRÂS’“°¢6ÆV%F–ÖV÷WB†6Æ÷VEF–ÖW"“° ¢7FFRÒV×G•7FFR‚“°¢Æö6Å7F÷&vRç6WD—FVÒ…5Dõ$Uô´U’Â¥4ôâç7G&–æv–g’‡7FFR’“°¢f÷"†6öç7B¶W’öbö&¦V7Bæ¶W—2†Æö6Å7F÷&vR’’°¢–b†¶W’ç7F'G5v—F‚†Gµ5Dõ$Uô´U—Ó¦&6·W’’Æö6Å7F÷&vRç&VÖ÷fT—FVÒ†¶W’“°¢Ğ¢&VæFW"‚“° ¢–b†6Æ÷VBbb6Æ÷VEW6W"’°¢G'’°¢v—B7F÷&T6Æ÷VE7FFR‡7FFR“°¢6WE7–æ57FGW2‚u6–æ7&öæ—¦Fòr“°¢Fö7B‚tFF÷2vF÷2æW7FR&VÆ†òRæ6öçF6ö×'F–Æ†Fâr“°¢Ò6F6‚†W'&÷"’°¢6WE7–æ57FGW2‚tfÆ†ò6–æ7&öæ—¦"r“°¢Fö7B‚twVV’÷2FF÷2FW7FR&VÆ†òÂÖ2ì:6ò6öç6VwV’Æ–×"<;7–öæÆ–æRâ6öæV7FR×6RRFVçFRæ÷fÖVçFRâr“°¢6öç6öÆRæW'&÷"‚tfÆ†òÆ–×"FF÷26–æ7&öæ—¦F÷3¢rÂW'&÷"“°¢Ğ¢ÒVÇ6R°¢Fö7B‚tFF÷2FW7FR&VÆ†òvF÷2âr“°¢Ğ¢Ğ¢7–æ2gVæ7F–öâÆöD6Æ÷VE7FFR‚’°¢6öç7B²FF¢&÷rÂW'&÷"ÒÒv—B6Æ÷VBæg&öÒ‚v†÷W6V†öÆEöFFr’ç6VÆV7B‚vFFr’æW‚wW6W%ö–BrÂ6Æ÷VEW6W"æ–B’æÖ–&U6–ævÆR‚“°¢–b†W'&÷"’F‡&÷rW'&÷#°¢6öç7B7F÷&VD÷væW"ÒÆö6Å7F÷&vRævWD—FVÒ„4ÄõTEôõtäU%ô´U’“°¢ÆWBÆö6ÂÒÆöE7FFR‚“°¢–b‡7F÷&VD÷væW"bb7F÷&VD÷væW"ÓÒ6Æ÷VEW6W"æ–B’°¢6öç7B&6·W¶W’ÒGµ5Dõ$Uô´U—Ó¦&6·W×W6W"ÒG·7F÷&VD÷væW'Ö°¢–b‚†Æö6ÂçG&ç67F–öç2æÆVæwF‚ÇÂÆö6Âæ&–ÆÇ2æÆVæwF‚ÇÂÆö6Âç&V7W'&–æt&–ÆÇ2æÆVæwF‚’bbÆö6Å7F÷&vRævWD—FVÒ†&6·W¶W’’’°¢Æö6Å7F÷&vRç6WD—FVÒ†&6·W¶W’Â¥4ôâç7G&–æv–g’†Æö6Â’“°¢Ğ¢Æö6ÂÒV×G•7FFR‚“°¢Ğ¢–b‡&÷sòæFF’°¢–b†Æö6ÂçG&ç67F–öç2æÆVæwF‚ÇÂÆö6Âæ&–ÆÇ2æÆVæwF‚ÇÂÆö6Âç&V7W'&–æt&–ÆÇ2æÆVæwF‚’°¢6öç7B&6·W¶W’ÒGµ5Dõ$Uô´U—Ó¦&6·WÖ&Vf÷&RÖ6Æ÷VF°¢–b‚Æö6Å7F÷&vRævWD—FVÒ†&6·W¶W’’’Æö6Å7F÷&vRç6WD—FVÒ†&6·W¶W’Â¥4ôâç7G&–æv–g’†Æö6Â’“°¢Ğ¢7FFRÒæ÷&ÖÆ—¦T6Æ÷VE7FFR‡&÷ræFF“°¢Æö6Å7F÷&vRç6WD—FVÒ…5Dõ$Uô´U’Â¥4ôâç7G&–æv–g’‡7FFR’“°¢&VæFW"‚“°¢ÒVÇ6R°¢7FFRÒæ÷&ÖÆ—¦T6Æ÷VE7FFR{ç»h‘éì¶»§q«^vNˆ[X™\ŠYQ]KœÛXÙJL
-JKİ\[Ûˆ[ÛÙ^JYQ]JK\œÛÛˆJNÂˆH[ÙHİ]K˜š[Ëœ\Ú
-ÈYˆÜ\Ëœ˜[™ÛUURQ
+(() => {
+  const STORE_KEY = 'nosso-mes:data:v1';
+  const CLOUD_OWNER_KEY = `${STORE_KEY}:cloud-owner`;
+  const money = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+  const today = new Date();
+  const isoToday = localDate(today);
+  const byId = id => document.getElementById(id);
+  const emptyState = () => ({ transactions: [], bills: [], recurringBills: [], billPayments: {}, billAmounts: {} });
+  let state = loadState();
+  let billFilter = 'pending';
+  let installPrompt = null;
+  let toastTimer;
+  let importFile = null;
+  let pendingImports = [];
+  let cloud = null;
+  let cloudUser = null;
+  let authMode = 'signin';
+  let cloudTimer = null;
+  let cloudChannel = null;
+  let cloudBusy = false;
 
-K˜[YK[[İ[YQ]K\œÛÛ‹ZYˆ˜[ÙHJNÂˆØ]™YÛİ[
-ÊÎÂˆJNÂˆYˆ
-\Ø]™YÛİ[
-HÈRY
-	Ú[\Ü[Y\ÜØYÙIÊK^ÛÛ[HÚÚ\YÛİ[È	Ô™]š\ÙHÜÈ˜[Ü™\ÈH\È]\È\ÈÛÛ\ÈÙ[XÚ[Û˜Y\Ë‰Èˆ	ÔÙ[XÚ[Û™H[ÈY[›ÜÈ[XHÛÛH\˜HYXÚ[Û˜\‹‰ÎÈ™]\›ÈBˆš[š[\ˆH	Ü[™[™ÉÎÂˆØİ[Y[œ]Y\TÙ[XİÜ[
-	ÖÙ]KXš[Yš[\—IÊK™›Ü‘XXÚ
-]ÛˆOˆ]Û‹˜Û\ÜÓ\İÙÙÛJ	ØXİ]™IË]Û‹™]\Ù]˜š[š[\ˆOOHš[š[\ŠJNÂˆØ]™Tİ]J
-NÂˆRY
-	Ú[\Ü[Y\ÜØYÙIÊK^ÛÛ[H	ÜØ]™YÛİ[HÛÛIÜØ]™YÛİ[OOHHÈ	ÉÈˆ	ÜÉßHYXÚ[Û˜YIÜØ]™YÛİ[OOHHÈ	ÉÈˆ	ÜÉßIÜÚÚ\YÛİ[ÈÈ	ÜÚÚ\YÛİ[HYÛ›Ü˜YIÜÚÚ\YÛİ[OOHHÈ	ÉÈˆ	ÜÉßHÜˆYÜÈ[°è[YÜØˆ	ÉßK˜ÂˆØ\İ
-	ĞÛÛ\ÈYXÚ[Û˜Y\È[ÈÚXÚÛ\İ‰ÊNÂˆ[™[™Ò[\ÜÈH×NÂˆRY
-	Ú[\Ü\™\İ[ÉÊKšY[ˆHYNÂˆJNÂˆØİ[Y[˜Y]™[\İ[™\Š	ØÚ[™ÙIË]™[OˆÂˆÛÛœİ[[İ[[œ]H]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]KXš[X[[İ[IÊNÂˆYˆ
-[[İ[[œ]
-HÂˆÛÛœİ[[İ[H[[İ[[œ]˜[YHOOH	ÉÈÈˆ[X™\Š[[İ[[œ]˜[YJNÂˆYˆ
-S[X™\‹š\Ñš[š]J[[İ[
-H[[İ[
-HÈØ\İ
-	Ò[™›Ü›YH[H˜[Üˆ°è[YÈ\˜HHÛÛK‰ÊNÈ™[™\Š
-NÈ™]\›ÈBˆÛÛœİÙ^HH[[İ[[œ]™]\Ù]˜š[[[İ[ÂˆYˆ
-Ù^Kœİ\ÕÚ]
-	Ü™\X]‰ÊJHİ]K˜š[[[İ[ÖÚÙ^WHH[[İ[Âˆ[ÙHÂˆÛÛœİš[Hİ]K˜š[Ë™š[™
-][HOˆš[‰Ú][KšYXOOHÙ^JNÂˆYˆ
-š[
-Hš[˜[[İ[H[[İ[ÂˆBˆØ]™Tİ]J
-NÈØ\İ
-	Õ˜[Üˆ\İHpêœÈ]X[^˜YË‰ÊNÂˆ™]\›ÂˆBˆÛÛœİÚXÚØ›ŞH]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]K\ZY]ÙÙÛWIÊNÂˆYˆ
-XÚXÚØ›Ş
-H™]\›ÂˆÛÛœİÙ^HHÚXÚØ›Ş™]\Ù]œZYÙÙÛNÂˆYˆ
-Ù^Kœİ\ÕÚ]
-	Ü™\X]‰ÊJHİ]K˜š[^[Y[ÖÚÙ^WHHÚXÚØ›Ş˜ÚXÚÙYÂˆ[ÙHÂˆÛÛœİš[Hİ]K˜š[Ë™š[™
-][HOˆš[‰Ú][KšYXOOHÙ^JNÂˆYˆ
-š[
-Hš[œZYHÚXÚØ›Ş˜ÚXÚÙYÂˆBˆØ]™Tİ]J
-NÈØ\İ
-ÚXÚØ›Ş˜ÚXÚÙYÈ	ĞÛÛHX\˜ØYHÛÛ[ÈYØK‰Èˆ	ĞÛÛH›ÛİH\˜H[™[\Ë‰ÊNÂˆJNÂˆØİ[Y[˜Y]™[\İ[™\Š	ØÛXÚÉË]™[OˆÂˆÛÛœİ™\X]]ÛˆH]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]K\™\X]Xš[IÊNÂˆYˆ
-™\X]]ÛŠHÂˆÛÛœİš[Hİ]K˜š[Ë™š[™
-][HOˆ][KšYOOH™\X]]Û‹™]\Ù]œ™\X]š[
-NÂˆYˆ
-š[	‰ˆXš[œ™\X]Ğ\ÒY
-HÂˆÛÛœİ™Xİ\œš[™ÈHÈYˆÜ\Ëœ˜[™ÛUURQ
+  function localDate(date) {
+    const y = date.getFullYear(); const m = String(date.getMonth() + 1).padStart(2, '0'); const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+  function loadState() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORE_KEY));
+      const transactions = (saved.transactions || []).map(item => {
+        if (item.type !== 'expense') return item;
+        const description = String(item.description || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR');
+        let category = item.category;
+        if (/^financiamento\b/.test(description)) category = 'Financiamento';
+        else if (/^alimentacao\b/.test(description)) category = 'AlimentaÃ§Ã£o';
+        else if (/^(dizimo|oferta)\b/.test(description)) category = 'DÃ­zimos/Ofertas';
+        else if (/\b(carro|moto)\b/.test(description)) category = 'Carro/Moto';
+        else if (/^cartao\b/.test(description)) category = 'CartÃ£o de crÃ©dito';
+        return category === item.category ? item : { ...item, category };
+      });
+      return { ...emptyState(), ...saved, transactions, bills: Array.isArray(saved.bills) ? saved.bills : [], recurringBills: saved.recurringBills || [], billPayments: saved.billPayments || {}, billAmounts: saved.billAmounts || {} };
+    }
+    catch { return emptyState(); }
+  }
+  function saveState() {
+    localStorage.setItem(STORE_KEY, JSON.stringify(state)); render();
+    if (cloud && cloudUser) {
+      clearTimeout(cloudTimer);
+      cloudTimer = setTimeout(() => syncCloudState(), 450);
+      setSyncStatus('Salvo neste aparelhoâ€¦');
+    }
+  }
+  function setSyncStatus(message) { byId('sync-status').innerHTML = `<i></i>${escapeHtml(message)}`; }
+  function normalizeCloudState(data) {
+    if (!data || typeof data !== 'object') return emptyState();
+    return { ...emptyState(), ...data, transactions: Array.isArray(data.transactions) ? data.transactions : [], bills: Array.isArray(data.bills) ? data.bills : [], recurringBills: Array.isArray(data.recurringBills) ? data.recurringBills : [], billPayments: data.billPayments && typeof data.billPayments === 'object' ? data.billPayments : {}, billAmounts: data.billAmounts && typeof data.billAmounts === 'object' ? data.billAmounts : {} };
+  }
+  async function storeCloudState(snapshot = state) {
+    if (!cloud || !cloudUser) return;
+    const { error } = await cloud.from('household_data').upsert({ user_id: cloudUser.id, data: snapshot, updated_at: new Date().toISOString() });
+    if (error) throw error;
+  }
+  async function syncCloudState() {
+    if (!cloud || !cloudUser) return;
+    if (cloudBusy) { cloudTimer = setTimeout(() => syncCloudState(), 500); return; }
+    cloudBusy = true;
+    const snapshot = JSON.parse(JSON.stringify(state));
+    try {
+      await storeCloudState(snapshot);
+      setSyncStatus('Sincronizado');
+    } catch (error) {
+      setSyncStatus('Aguardando conexÃ£o');
+      console.error('Falha ao sincronizar:', error);
+    } finally { cloudBusy = false; }
+  }
+  async function resetAppData() {
+    const confirmed = confirm('Apagar todos os lanÃ§amentos, contas do mÃªs, contas recorrentes e registros de pagamento? Essa aÃ§Ã£o nÃ£o pode ser desfeita.');
+    if (!confirmed) return;
 
-K˜[YNˆš[›˜[YK[[İ[ˆš[˜[[İ[YQ^Nˆ[X™\Šš[™YQ]KœÛXÙJL
-JKİ\[Ûˆ™^]˜Z[X›S[Û
-š[™YQ]JK\œÛÛˆš[œ\œÛÛˆNÂˆİ]Kœ™Xİ\œš[™Ğš[Ëœ\Ú
-™Xİ\œš[™ÊNÂˆš[œ™\X]Ğ\ÒYH™Xİ\œš[™ËšYÂˆØ]™Tİ]J
-NÂˆØ\İ
-ÛÛHYXÚ[Û˜YH[ÜÈ™XÛÜœ™[\ÈH\\ˆH	Ù›Ü›X][Û
-™Xİ\œš[™Ëœİ\[Û
-_K˜
-NÂˆBˆ™]\›ÂˆBˆÛÛœİ™\X]˜[œØXİ[ÛˆH]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]K\™\X]]˜[œØXİ[Û—IÊNÂˆYˆ
-™\X]˜[œØXİ[ÛŠHÂˆÛÛœİ˜[œØXİ[ÛˆHİ]K˜[œØXİ[ÛœË™š[™
-][HOˆ][KšYOOH™\X]˜[œØXİ[Û‹™]\Ù]œ™\X]˜[œØXİ[ÛŠNÂˆYˆ
-˜[œØXİ[Ûˆ	‰ˆ˜[œØXİ[Û‹\HOOH	Ù^[œÙIÈ	‰ˆ]˜[œØXİ[Û‹œ™\X]XØÛİ[Y
-HÂˆÛÛœİ™Xİ\œš[™ÈHÈYˆÜ\Ëœ˜[™ÛUURQ
+    clearTimeout(cloudTimer);
+    while (cloudBusy) await new Promise(resolve => setTimeout(resolve, 50));
+    clearTimeout(cloudTimer);
 
-K˜[YNˆ˜[œØXİ[Û‹™\ØÜš\[Û‹[[İ[ˆ˜[œØXİ[Û‹˜[[İ[YQ^Nˆ[X™\Š˜[œØXİ[Û‹™]KœÛXÙJL
-JKİ\[Ûˆ™^]˜Z[X›S[Û
-˜[œØXİ[Û‹™]JK\œÛÛˆ˜[œØXİ[Û‹œ\œÛÛ‹Ûİ\˜ÙU˜[œØXİ[Û’Yˆ˜[œØXİ[Û‹šYNÂˆİ]Kœ™Xİ\œš[™Ğš[Ëœ\Ú
-™Xİ\œš[™ÊNÂˆ˜[œØXİ[Û‹œ™\X]XØÛİ[YH™Xİ\œš[™ËšYÂˆØ]™Tİ]J
-NÂˆØ\İ
-ÛÛHš^HY[œØ[ÜšXYHH\\ˆH	Ù›Ü›X][Û
-™Xİ\œš[™Ëœİ\[Û
-_K˜
-NÂˆBˆ™]\›ÂˆBˆÛÛœİ[]Pš[H]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]KY[]KXš[IÊNÂˆYˆ
-[]Pš[
-HÂˆİ]K˜š[ÈHİ]K˜š[Ë™š[\Š][HOˆ][KšYOOH[]Pš[™]\Ù]™[]Pš[
-NÂˆØ]™Tİ]J
-NÈØ\İ
-	ĞÛÛH™[[İšYHÈÚXÚÛ\İ‰ÊNÂˆ™]\›ÂˆBˆÛÛœİ[]T™Xİ\œš[™Ğš[H]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]KY[]K\™Xİ\œš[™ËXš[IÊNÂˆYˆ
-[]T™Xİ\œš[™Ğš[
-HÂˆÛÛœİYH[]T™Xİ\œš[™Ğš[™]\Ù]™[]T™Xİ\œš[™Ğš[ÂˆÛÛœİš[Hİ]Kœ™Xİ\œš[™Ğš[Ë™š[™
-][HOˆ][KšYOOHY
-NÂˆYˆ
-š[	‰ˆÛÛ™š\›J\YØ\ˆ8 '	Øš[›˜[Y_x 'H\ÈÛÛ\È™XÛÜœ™[\ÏÈ[HZ^\°èHH\\™XÙ\ˆ›ÜÈ°ìŞ[[ÜÈY\Ù\Ë˜
-JHÂˆİ]Kœ™Xİ\œš[™Ğš[ÈHİ]Kœ™Xİ\œš[™Ğš[Ë™š[\Š][HOˆ][KšYOOHY
-NÂˆ›Üˆ
-ÛÛœİÙ^HÙˆØš™XİšÙ^\Êİ]K˜š[^[Y[ÊJHYˆ
-Ù^Kœİ\ÕÚ]
-™\X]‰ÚYN˜
-JH[]Hİ]K˜š[^[Y[ÖÚÙ^WNÂˆ›Üˆ
-ÛÛœİÙ^HÙˆØš™XİšÙ^\Êİ]K˜š[[[İ[ÊJHYˆ
-Ù^Kœİ\ÕÚ]
-™\X]‰ÚYN˜
-JH[]Hİ]K˜š[[[İ[ÖÚÙ^WNÂˆØ]™Tİ]J
-NÈØ\İ
-	ĞÛÛH™XÛÜœ™[H™[[İšYHÜÈ°ìŞ[[ÜÈY\Ù\Ë‰ÊNÂˆBˆ™]\›ÂˆBˆÛÛœİ[]P]ÛˆH]™[\™Ù]˜ÛÜÙ\İ
-	ÖÙ]KY[]WIÊNÂˆYˆ
-[]P]ÛŠHÈİ]K˜[œØXİ[ÛœÈHİ]K˜[œØXİ[ÛœË™š[\Š][HOˆ][KšYOOH[]P]Û‹™]\Ù]™[]JNÈØ]™Tİ]J
-NÈØ\İ
-	Ó[°éØ[Y[È^ÛpëYË‰ÊNÈBˆJNÂˆRY
-	Û˜]‹Xš[ÉÊK˜Y]™[\İ[™\Š	ØÛXÚÉË]™[OˆÈ]™[œ™]™[Y˜][
+    state = emptyState();
+    localStorage.setItem(STORE_KEY, JSON.stringify(state));
+    for (const key of Object.keys(localStorage)) {
+      if (key.startsWith(`${STORE_KEY}:backup`)) localStorage.removeItem(key);
+    }
+    render();
 
-NÈØİ[Y[œ]Y\TÙ[XİÜŠ	Ë˜š[Ë\[™[	ÊKœØÜ›Û[ÕšY]ÊÈ™Z]š[Üˆ	ÜÛ[Ûİ	ÈJNÈJNÂˆRY
-	Ü™\Ù]Y]KX]Û‰ÊK˜Y]™[\İ[™\Š	ØÛXÚÉË™\Ù]\]JNÂ‚ˆÚ[™İË˜Y]™[\İ[™\Š	Ø™Y›Ü™Z[œİ[›Û\	Ë]™[OˆÂˆ]™[œ™]™[Y˜][
+    if (cloud && cloudUser) {
+      try {
+        await storeCloudState(state);
+        setSyncStatus('Sincronizado');
+        toast('Dados apagados neste aparelho e na conta compartilhada.');
+      } catch (error) {
+        setSyncStatus('Falha ao sincronizar');
+        toast('Apaguei os dados deste aparelho, mas nÃ£o consegui limpar a cÃ³pia online. Conecte-se e tente novamente.');
+        console.error('Falha ao limpar dados sincronizados:', error);
+      }
+    } else {
+      toast('Dados deste aparelho apagados.');
+    }
+  }
+  async function loadCloudState() {
+    const { data: row, error } = await cloud.from('household_data').select('data').eq('user_id', cloudUser.id).maybeSingle();
+    if (error) throw error;
+    const storedOwner = localStorage.getItem(CLOUD_OWNER_KEY);
+    let local = loadState();
+    if (storedOwner && storedOwner !== cloudUser.id) {
+      const backupKey = `${STORE_KEY}:backup-user-${storedOwner}`;
+      if ((local.transactions.length || local.bills.length || local.recurringBills.length) && !localStorage.getItem(backupKey)) {
+        localStorage.setItem(backupKey, JSON.stringify(local));
+      }
+      local = emptyState();
+    }
+    if (row?.data) {
+      if (local.transactions.length || local.bills.length || local.recurringBills.length) {
+        const backupKey = `${STORE_KEY}:backup-before-cloud`;
+        if (!localStorage.getItem(backupKey)) localStorage.setItem(backupKey, JSON.stringify(local));
+      }
+      state = normalizeCloudState(row.data);
+      localStorage.setItem(STORE_KEY, JSON.stringify(state));
+      render();
+    } else {
+      state = normalizeCloudState(local);
+      await storeCloudState(state);
+      localStorage.setItem(STORE_KEY, JSON.stringify(state));
+    }
+    localStorage.setItem(CLOUD_OWNER_KEY, cloudUser.id);
+    setSyncStatus('Sincronizado');
+    byId('account-button').textContent = 'Sair';
+    document.body.classList.remove('auth-required');
+    byId('auth-dialog').close();
+    subscribeCloud();
+  }
+  function subscribeCloud() {
+    if (cloudChannel) cloud.removeChannel(cloudChannel);
+    cloudChannel = cloud.channel(`household-${cloudUser.id}`).on('postgres_changes', { event: '*', schema: 'public', table: 'household_data', filter: `user_id=eq.${cloudUser.id}` }, async () => {
+      if (cloudTimer || cloudBusy) return;
+      const { data: row, error } = await cloud.from('household_data').select('data').eq('user_id', cloudUser.id).maybeSingle();
+      if (!error && row?.data) {
+        const incoming = normalizeCloudState(row.data);
+        if (JSON.stringify(incoming) !== JSON.stringify(state)) {
+          state = incoming; localStorage.setItem(STORE_KEY, JSON.stringify(state)); render();
+        }
+        setSyncStatus('Sincronizado');
+      }
+    }).subscribe();
+  }
+  async function initializeCloud() {
+    const config = window.NOSSO_MES_BACKEND || {};
+    if (!config.url || !config.anonKey) { setSyncStatus('SÃ³ neste aparelho'); byId('privacy-note').textContent = 'Modo local: os dados ficam neste aparelho. Configure o backend para compartilhar entre celulares.'; return; }
+    byId('privacy-note').textContent = 'Os dados sÃ£o salvos neste aparelho e sincronizados com a conta da casa quando vocÃª entra e estÃ¡ conectado Ã  internet.';
+    document.body.classList.add('auth-required');
+    byId('auth-close').hidden = true;
+    if (!window.supabase?.createClient) { setSyncStatus('Backend indisponÃ­vel'); byId('auth-message').textContent = 'NÃ£o foi possÃ­vel carregar o serviÃ§o de login. Verifique a conexÃ£o com a internet e recarregue.'; byId('auth-dialog').showModal(); return; }
+    try { cloud = window.supabase.createClient(config.url, config.anonKey); }
+    catch (error) { setSyncStatus('ConfiguraÃ§Ã£o invÃ¡lida'); byId('auth-message').textContent = error instanceof Error ? error.message : 'Confira o Project URL no backend-config.js.'; byId('auth-dialog').showModal(); return; }
+    setSyncStatus('Verificando acessoâ€¦');
+    const { data, error } = await cloud.auth.getSession();
+    if (error) { setSyncStatus('Erro de conexÃ£o'); byId('auth-message').textContent = 'NÃ£o consegui verificar sua sessÃ£o. Confira a internet e tente entrar novamente.'; byId('auth-dialog').showModal(); return; }
+    if (data.session) {
+      cloudUser = data.session.user;
+      try { await loadCloudState(); }
+      catch (loadError) { setSyncStatus('Falha ao carregar'); byId('auth-message').textContent = 'NÃ£o consegui acessar a tabela do app. Confira o SQL de configuraÃ§Ã£o no arquivo supabase/README.md.'; byId('auth-dialog').showModal(); console.error(loadError); }
+    } else {
+      byId('auth-dialog').showModal();
+      setSyncStatus('Entre para sincronizar');
+    }
+  }
+  function parseAmount(value) {
+    const raw = String(value || '').trim().replace(/\s/g, '');
+    const hasComma = raw.includes(',');
+    const hasDot = raw.includes('.');
+    let normalized = raw;
+    if (hasComma && hasDot) normalized = raw.lastIndexOf(',') > raw.lastIndexOf('.') ? raw.replace(/\./g, '').replace(',', '.') : raw.replace(/,/g, '');
+    else if (hasComma) normalized = raw.replace(/\./g, '').replace(',', '.');
+    else if (hasDot && /^\d{1,3}(?:\.\d{3})+$/.test(raw)) normalized = raw.replace(/\./g, '');
+    const amount = Number(normalized);
+    return Number.isFinite(amount) && amount > 0 ? amount : NaN;
+  }
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]);
+  }
+  function formatDate(date) {
+    if (!date) return '';
+    const [y, m, d] = date.split('-');
+    return `${d}/${m}`;
+  }
+  function daysUntil(dateString) {
+    const target = new Date(`${dateString}T12:00:00`);
+    const now = new Date(); now.setHours(12, 0, 0, 0);
+    return Math.round((target - now) / 86400000);
+  }
+  function monthKey(date) { return date.slice(0, 7); }
+  function nextMonthKey(month) {
+    const [year, monthNumber] = month.split('-').map(Number);
+    const next = new Date(year, monthNumber, 1);
+    return `${next.getFullYear()}-${String(next.getMonth() + 1).padStart(2, '0')}`;
+  }
+  function nextAvailableMonth(date) {
+    const afterBase = nextMonthKey(monthKey(date));
+    const afterCurrent = nextMonthKey(monthKey(isoToday));
+    return afterBase > afterCurrent ? afterBase : afterCurrent;
+  }
+  function formatMonth(month) { const [year, number] = month.split('-'); return `${number}/${year}`; }
+  function selectedMonth() { return byId('month-picker').value || monthKey(isoToday); }
+  function toast(message) {
+    const box = byId('toast'); box.textContent = message; box.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => box.classList.remove('show'), 2600);
+  }
+  function escapeSelector(value) { return CSS.escape(value); }
 
-NÈ[œİ[›Û\H]™[ÈRY
-	Ú[œİ[X]Û‰ÊKšY[ˆH˜[ÙNÂˆJNÂˆRY
-	Ú[œİ[X]Û‰ÊK˜Y]™[\İ[™\Š	ØÛXÚÉË\Ş[˜È
+  function render() {
+    const month = selectedMonth();
+    const txs = state.transactions.filter(item => monthKey(item.date) === month).sort((a, b) => b.date.localeCompare(a.date));
+    const incomes = txs.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
+    const expenses = txs.filter(item => item.type === 'expense').reduce((sum, item) => sum + item.amount, 0);
+    byId('income-value').textContent = money.format(incomes);
+    byId('expense-value').textContent = money.format(expenses);
+    byId('balance-value').textContent = money.format(incomes - expenses);
+    byId('balance-note').textContent = incomes - expenses < 0 ? 'AtenÃ§Ã£o: saÃ­das acima das entradas' : 'Entradas menos saÃ­das';
 
-HOˆÂˆYˆ
-Z[œİ[›Û\
-HÈØ\İ
-	Ó›ÈTÛ™NˆXœ˜HÛÛ\\[\ˆH\ØÛÛH8 'YXÚ[Û˜\ˆ0è[HH[°ëXÚ[ø 'K‰ÊNÈ™]\›ÈBˆ[œİ[›Û\œ›Û\
+    const monthBills = billsForMonth(month);
+    const paidBills = monthBills.filter(item => item.paid === true);
+    const pendingBills = monthBills.filter(item => item.paid !== true);
+    const pendingAmount = pendingBills.reduce((sum, item) => sum + (Number(item.amount) || 0), 0);
+    byId('pending-bills-summary').textContent = `Falta pagar: ${money.format(pendingAmount)} Â· ${pendingBills.length} conta${pendingBills.length === 1 ? '' : 's'}`;
+    const bills = (billFilter === 'all' ? monthBills : billFilter === 'paid' ? paidBills : pendingBills)
+      .slice().sort((a, b) => a.dueDate.localeCompare(b.dueDate) || a.name.localeCompare(b.name, 'pt-BR'));
+    document.querySelectorAll('[data-bill-filter]').forEach(button => button.classList.toggle('active', button.dataset.billFilter === billFilter));
+    const billsList = byId('bills-list');
+    byId('bills-count').textContent = `${paidBills.length} de ${monthBills.length} pagas Â· ${pendingBills.length} pendentes`;
+    if (!bills.length) billsList.innerHTML = `<div class="empty-state"><strong>${monthBills.length ? 'Nenhuma conta nesta lista.' : 'Nenhuma conta cadastrada para este mÃªs.'}</strong>${monthBills.length ? 'Troque o filtro para ver as outras contas.' : 'Adicione uma conta e marque a opÃ§Ã£o mensal para repetir.'}</div>`;
+    else billsList.innerHTML = bills.map(bill => {
+      const days = daysUntil(bill.dueDate);
+      const status = bill.paid ? '<span class="status-pill paid">Paga</span>' : days < 0 ? `<span class="status-pill late">Atrasada ${Math.abs(days)}d</span>` : days === 0 ? '<span class="status-pill soon">Vence hoje</span>' : days <= 5 ? `<span class="status-pill soon">Em ${days} dia${days === 1 ? '' : 's'}</span>` : `<span class="status-pill">Vence ${formatDate(bill.dueDate)}</span>`;
+      const key = bill.recurring ? `repeat:${bill.templateId}:${month}` : `bill:${bill.id}`;
+      const amount = `<input class="bill-amount-input" type="number" min="0" step="0.01" inputmode="decimal" data-bill-amount="${escapeHtml(key)}" value="${bill.amount ? Number(bill.amount).toFixed(2) : ''}" aria-label="Valor de ${escapeHtml(bill.name)}" placeholder="0,00">`;
+      const recurrence = bill.recurring ? ' Â· mensal' : bill.repeatsAsId ? ` Â· mensal a partir de ${formatMonth(state.recurringBills.find(item => item.id === bill.repeatsAsId)?.startMonth || month)}` : '';
+      const makeRecurring = !bill.recurring && !bill.repeatsAsId ? `<button class="repeat-button" data-repeat-bill="${escapeHtml(bill.id)}">Tornar mensal</button>` : '';
+      const deleteKey = bill.recurring ? `data-delete-recurring-bill="${escapeHtml(bill.templateId)}"` : `data-delete-bill="${escapeHtml(bill.id)}"`;
+      return `<div class="bill-row ${bill.paid ? 'bill-paid' : ''}"><label class="paid-check"><input type="checkbox" data-paid-toggle="${escapeHtml(key)}" ${bill.paid ? 'checked' : ''} aria-label="Marcar ${escapeHtml(bill.name)} como paga"><span aria-hidden="true"></span></label><div class="item-details"><strong>${escapeHtml(bill.name)}</strong><small>${escapeHtml(bill.person)} Â· vence ${formatDate(bill.dueDate)}${recurrence}</small>${makeRecurring}</div><div class="item-value">${amount}<small>${status}</small></div><button class="pay-button bill-delete" ${deleteKey} aria-label="Excluir conta ${escapeHtml(bill.name)}">Apagar</button></div>`;
+    }).join('');
 
-NÈ]ØZ][œİ[›Û\\Ù\ÚÚXÙNÈ[œİ[›Û\H[ÈRY
-	Ú[œİ[X]Û‰ÊKšY[ˆHYNÂˆJNÂˆÚ[™İË˜Y]™[\İ[™\Š	Ø\[œİ[Y	Ë
+    const txList = byId('transactions-list');
+    if (!txs.length) txList.innerHTML = '<div class="empty-state"><strong>Seu mÃªs comeÃ§a com um registro.</strong>Inclua uma entrada ou saÃ­da para ver o resumo.</div>';
+    else {
+      const groups = new Map();
+      txs.forEach(item => {
+        if (!groups.has(item.category)) groups.set(item.category, []);
+        groups.get(item.category).push(item);
+      });
+      const orderedGroups = [...groups.entries()].sort((a, b) => {
+        const totalA = a[1].reduce((sum, item) => sum + item.amount, 0);
+        const totalB = b[1].reduce((sum, item) => sum + item.amount, 0);
+        return totalB - totalA;
+      });
+      txList.innerHTML = orderedGroups.map(([category, items]) => {
+        const spent = items.filter(item => item.type === 'expense').reduce((sum, item) => sum + item.amount, 0);
+        const received = items.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
+        const totalsLabel = [spent ? `âˆ’ ${money.format(spent)}` : '', received ? `+ ${money.format(received)}` : ''].filter(Boolean).join(' Â· ');
+        const rows = items.map(item => {
+          const recurringAction = item.type !== 'expense' ? '' : item.repeatAccountId
+            ? '<small class="fixed-note">Conta fixa mensal</small>'
+            : `<button class="repeat-button" data-repeat-transaction="${escapeHtml(item.id)}">Usar como conta fixa mensal</button>`;
+          return `<div class="transaction-row"><span class="item-icon ${item.type}" aria-hidden="true">${item.type === 'income' ? 'â†—' : 'â†˜'}</span><div class="item-details"><strong>${escapeHtml(item.description)}</strong><small>${escapeHtml(item.person)} Â· ${formatDate(item.date)}</small>${recurringAction}</div><div class="item-value">${item.type === 'income' ? '+' : 'âˆ’'} ${money.format(item.amount)}</div><button class="pay-button" data-delete="${escapeHtml(item.id)}" aria-label="Excluir lanÃ§amento ${escapeHtml(item.description)}">Excluir</button></div>`;
+        }).join('');
+        return `<details class="transaction-group"><summary><span class="group-name">${escapeHtml(category)}</span><span class="group-count">${items.length} lanÃ§amento${items.length === 1 ? '' : 's'}</span><span class="group-total">${totalsLabel}</span></summary><div class="transaction-group-items">${rows}</div></details>`;
+      }).join('');
+    }
+    byId('transactions-count').textContent = `${txs.length} lanÃ§amento${txs.length === 1 ? '' : 's'} incluÃ­do${txs.length === 1 ? '' : 's'} nos totais`;
 
-HOˆØ\İ
-	Ö™[›ÚH[œİ[YË‰ÊJNÂˆÚ[™İË˜Y]™[\İ[™\Š	ÛÛ›[™IË
+    const totals = new Map();
+    txs.filter(item => item.type === 'expense').forEach(item => totals.set(item.category, (totals.get(item.category) || 0) + item.amount));
+    const spending = [...totals.entries()].sort((a, b) => b[1] - a[1]);
+    const spendingList = byId('spending-list');
+    if (!spending.length) spendingList.innerHTML = '<div class="empty-state">Seus gastos por categoria aparecem aqui.</div>';
+    else spendingList.innerHTML = spending.slice(0, 5).map(([category, amount]) => `<div class="spending-row"><div class="spending-label"><span>${escapeHtml(category)}</span><span>${money.format(amount)}</span></div><div class="progress-track"><div class="progress-fill" style="width:${Math.max(5, Math.round(amount / spending[0][1] * 100))}%"></div></div></div>`).join('');
+    renderTip(spending, expenses, incomes);
+  }
 
-HOˆÈYˆ
-ÛİY\Ù\ŠHŞ[˜ĞÛİYİ]J
-NÈJNÂˆYˆ
-	ÜÙ\šXÙUÛÜšÙ\‰È[ˆ˜]šYØ]Üˆ	‰ˆ×šÏÎ‰Ë\İ
-ØØ][Û‹œ›İØÛÛ
-JH˜]šYØ]Ü‹œÙ\šXÙUÛÜšÙ\‹œ™YÚ\İ\Š	Ë‹ÜÙ\šXÙK]ÛÜšÙ\‹šœÉÊK˜Ø]Ú
+  function billsForMonth(month) {
+    const oneOff = state.bills.filter(item => monthKey(item.dueDate) === month).map(item => ({ ...item, paid: Boolean(item.paid), recurring: false }));
+    const recurring = state.recurringBills
+      .filter(item => month >= item.startMonth)
+      .map(item => {
+        const [year, monthNumber] = month.split('-').map(Number);
+        const lastDay = new Date(year, monthNumber, 0).getDate();
+        const day = Math.min(item.dueDay, lastDay);
+        const dueDate = `${month}-${String(day).padStart(2, '0')}`;
+        const key = `repeat:${item.id}:${month}`;
+        return { ...item, templateId: item.id, id: key, dueDate, amount: Object.prototype.hasOwnProperty.call(state.billAmounts, key) ? state.billAmounts[key] : item.amount, recurring: true, paid: Boolean(state.billPayments[key]) };
+      });
+    return [...oneOff, ...recurring];
+  }
 
+  function parseImportedDate(text) {
+    let match = text.match(/\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b/);
+    let year; let month; let day;
+    if (match) [, year, month, day] = match;
+    else {
+      match = text.match(/\b(\d{1,2})[/.\-](\d{1,2})(?:[/.\-](\d{2,4}))?\b/);
+      if (!match) return null;
+      [, day, month, year] = match;
+      year = year ? (year.length === 2 ? `20${year}` : year) : String(new Date().getFullYear());
+    }
+    const y = Number(year); const m = Number(month); const d = Number(day);
+    const date = new Date(y, m - 1, d);
+    return date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d ? `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}` : null;
+  }
+  function parseImportedAmount(text) {
+    const currency = text.match(/R\$\s*([\d.]+(?:,\d{2})?)/i);
+    const number = currency || text.match(/\b(?:\d{1,3}(?:\.\d{3})+|\d+)(?:,\d{2}|\.\d{2})\b/);
+    if (!number) return null;
+    const token = currency ? currency[1] : number[0];
+    const amount = token.includes(',') ? parseAmount(token) : Number(token.replace(/,/g, ''));
+    return Number.isFinite(amount) && amount > 0 ? amount : null;
+  }
+  function textIsBillRow(text) { return Boolean(parseImportedDate(text) && parseImportedAmount(text)); }
+  function candidateFromText(text, filename) {
+    const amount = parseImportedAmount(text);
+    const dueDate = parseImportedDate(text);
+    if (!amount || !dueDate) return null;
+    const currency = text.match(/R\$\s*[\d.]+(?:,\d{2})?/i)?.[0] || text.match(/\b(?:\d{1,3}(?:\.\d{3})+|\d+)(?:,\d{2}|\.\d{2})\b/)?.[0] || '';
+    const dateText = text.match(/\b(?:20\d{2}[-/]\d{1,2}[-/]\d{1,2}|\d{1,2}[/.\-]\d{1,2}(?:[/.\-]\d{2,4})?)\b/)?.[0] || '';
+    const name = text.replace(currency, ' ').replace(dateText, ' ').replace(/\b(vencimento|venc|due date|valor|total|a pagar|conta|fatura|data)\b/gi, ' ').replace(/R\$/gi, ' ').replace(/[|:;\s]+/g, ' ').trim();
+    const fallback = filename.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
+    return { id: crypto.randomUUID(), name: (name || fallback || 'Conta importada').slice(0, 70), amount, dueDate, person: 'Casa', recurring: false, include: true };
+  }
+  function collectXmlRows(xmlDocument) {
+    const nodes = [...xmlDocument.getElementsByTagName('*')];
+    const rowNodes = nodes.filter(node => node.children.length > 0).map(node => ({
+      node,
+      text: [...node.children].map(child => `${child.localName || child.tagName}: ${child.textContent.trim()}`).join(' | ')
+    })).filter(item => textIsBillRow(item.text));
+    const rowSet = new Set(rowNodes.map(item => item.node));
+    return rowNodes.filter(item => ![...item.node.querySelectorAll('*')].some(child => rowSet.has(child))).map(item => item.text);
+  }
+  async function readPdfLines(file) {
+    if (location.protocol === 'file:') throw new Error('Para ler PDF, abra o app por um endereÃ§o HTTPS. XML e HTML podem ser lidos nesta pÃ¡gina local.');
+    const pdfjs = await import('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.3.289/pdf.min.mjs');
+    pdfjs.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.3.289/pdf.worker.min.mjs';
+    const pdf = await pdfjs.getDocument({ data: new Uint8Array(await file.arrayBuffer()) }).promise;
+    if (pdf.numPages > 80) throw new Error('Este PDF tem mais de 80 pÃ¡ginas. Separe as contas em um arquivo menor.');
+    const lines = [];
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+      const page = await pdf.getPage(pageNumber);
+      const content = await page.getTextContent();
+      const items = content.items.filter(item => typeof item.str === 'string' && item.str.trim()).map(item => ({ text: item.str.trim(), x: item.transform?.[4] || 0, y: item.transform?.[5] || 0 }));
+      items.sort((a, b) => b.y - a.y || a.x - b.x);
+      const pageLines = [];
+      for (const item of items) {
+        let line = pageLines.find(entry => Math.abs(entry.y - item.y) < 3);
+        if (!line) { line = { y: item.y, parts: [] }; pageLines.push(line); }
+        line.parts.push(item);
+      }
+      pageLines.sort((a, b) => b.y - a.y).forEach(line => lines.push(line.parts.sort((a, b) => a.x - b.x).map(item => item.text).join(' ')));
+    }
+    return lines;
+  }
+  async function extractFileRows(file) {
+    const extension = file.name.split('.').pop().toLowerCase();
+    if (extension === 'pdf') return readPdfLines(file);
+    const source = await file.text();
+    if (extension === 'html' || extension === 'htm') {
+      const parsed = new DOMParser().parseFromString(source, 'text/html');
+      const tableRows = [...parsed.querySelectorAll('tr')].map(row => [...row.querySelectorAll('th,td')].map(cell => cell.textContent.trim()).join(' | ')).filter(Boolean);
+      return tableRows.length ? tableRows : (parsed.body.innerText || parsed.body.textContent || '').split(/[\r\n]+/).map(line => line.trim()).filter(Boolean);
+    }
+    const parsed = new DOMParser().parseFromString(source, 'application/xml');
+    if (parsed.querySelector('parsererror')) throw new Error('NÃ£o consegui abrir este XML. Confira se o arquivo estÃ¡ Ã­ntegro.');
+    const xmlRows = collectXmlRows(parsed);
+    return xmlRows.length ? xmlRows : [parsed.documentElement.textContent];
+  }
+  function renderImportCandidates() {
+    const list = byId('import-candidates');
+    list.innerHTML = pendingImports.map((item, index) => `<article class="import-candidate" data-import-index="${index}"><label class="candidate-select"><input type="checkbox" data-import-include ${item.include ? 'checked' : ''}><span>Adicionar</span></label><label>Conta<input data-import-name maxlength="70" value="${escapeHtml(item.name)}"></label><div class="form-row"><label>Valor (R$)<input data-import-amount type="number" min="0" step="0.01" value="${Number(item.amount).toFixed(2)}"></label><label>Vencimento<input data-import-date type="date" value="${escapeHtml(item.dueDate)}"></label></div><label>ResponsÃ¡vel<select data-import-person><option>Casa</option><option>LetÃ­cia</option><option>Ronald</option></select></label><label class="form-check"><input data-import-recurring type="checkbox"><span>Usar como conta fixa mensal</span></label></article>`).join('');
+    byId('import-summary').textContent = `${pendingImports.length} sugest${pendingImports.length === 1 ? 'Ã£o encontrada' : 'Ãµes encontradas'}. Confira descriÃ§Ã£o, valor e vencimento; escolha quais devem se repetir.`;
+    byId('import-results').hidden = false;
+  }
 
-HOˆßJNÂˆ™[™\Š
-NÂˆ[š]X[^™PÛİY
+  function renderTip(spending, expenses, incomes) {
+    if (!spending.length) {
+      byId('tip-title').textContent = 'Pequenos passos contam.';
+      byId('tip-copy').textContent = 'Registre entradas e saÃ­das para receber sugestÃµes com base nos gastos da casa.';
+      return;
+    }
+    const [category, value] = spending[0];
+    const share = expenses ? Math.round(value / expenses * 100) : 0;
+    byId('tip-title').textContent = `${category} Ã© o maior gasto.`;
+    byId('tip-copy').textContent = `Representa ${share}% das saÃ­das deste mÃªs. Revise compras recorrentes nessa categoria e definam juntos um limite para o prÃ³ximo mÃªs.`;
+    if (incomes > 0 && expenses > incomes) byId('tip-copy').textContent += ' As saÃ­das jÃ¡ passaram das entradas; vale conferir os lanÃ§amentos e priorizar as contas essenciais.';
+  }
 
-NÂŸJJ
-NÂ
+  document.querySelectorAll('[data-open]').forEach(button => button.addEventListener('click', () => {
+    const dialog = byId(button.dataset.open);
+    const form = dialog.querySelector('form');
+    if (form) form.reset();
+    if (form?.id === 'transaction-form') form.elements.date.value = isoToday;
+    if (form?.id === 'bill-form') form.elements.dueDate.value = isoToday;
+    if (dialog.id === 'import-dialog') {
+      importFile = null; pendingImports = [];
+      byId('import-file').value = ''; byId('import-file-name').textContent = 'Nenhum arquivo escolhido.';
+      byId('read-file-button').disabled = true; byId('import-message').textContent = '';
+      byId('import-results').hidden = true;
+    }
+    dialog.showModal();
+  }));
+  document.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', () => button.closest('dialog').close()));
+  document.querySelectorAll('dialog').forEach(dialog => dialog.addEventListener('click', event => { if (event.target === dialog && !(dialog.id === 'auth-dialog' && document.body.classList.contains('auth-required'))) dialog.close(); }));
+  byId('auth-dialog').addEventListener('cancel', event => { if (document.body.classList.contains('auth-required')) event.preventDefault(); });
+  byId('account-button').addEventListener('click', async () => {
+    if (cloudUser) {
+      const { error } = await cloud.auth.signOut();
+      if (error) { toast('NÃ£o foi possÃ­vel sair da conta.'); return; }
+      if (cloudChannel) cloud.removeChannel(cloudChannel);
+      cloudUser = null; cloudChannel = null;
+      authMode = 'signin';
+      document.body.classList.add('auth-required');
+      byId('auth-title').textContent = 'Entrar'; byId('auth-submit').textContent = 'Entrar';
+      byId('auth-mode-toggle').textContent = 'Criar conta da casa'; byId('auth-message').textContent = '';
+      byId('account-button').textContent = 'Entrar'; byId('auth-dialog').showModal();
+      setSyncStatus('SessÃ£o encerrada');
+      return;
+    }
+    if (!cloud) { toast('O login serÃ¡ ativado depois de configurar o backend seguro.'); return; }
+    byId('auth-dialog').showModal();
+  });
+  byId('auth-mode-toggle').addEventListener('click', () => {
+    authMode = authMode === 'signin' ? 'signup' : 'signin';
+    byId('auth-title').textContent = authMode === 'signup' ? 'Criar conta da casa' : 'Entrar';
+    byId('auth-submit').textContent = authMode === 'signup' ? 'Criar conta' : 'Entrar';
+    byId('auth-password').autocomplete = authMode === 'signup' ? 'new-password' : 'current-password';
+    byId('auth-mode-toggle').textContent = authMode === 'signup' ? 'JÃ¡ tenho uma conta' : 'Criar conta da casa';
+    byId('auth-message').textContent = '';
+  });
+  byId('auth-form').addEventListener('submit', async event => {
+    event.preventDefault();
+    if (!cloud) { byId('auth-message').textContent = 'O backend ainda nÃ£o estÃ¡ configurado. Consulte o arquivo supabase/README.md.'; return; }
+    const button = byId('auth-submit');
+    const email = byId('auth-email').value.trim(); const password = byId('auth-password').value;
+    button.disabled = true; byId('auth-message').textContent = 'Conectandoâ€¦';
+    try {
+      const result = authMode === 'signup'
+        ? await cloud.auth.signUp({ email, password, options: { emailRedirectTo: location.origin } })
+        : await cloud.auth.signInWithPassword({ email, password });
+      if (result.error) throw result.error;
+      if (!result.data.session) {
+        byId('auth-message').textContent = 'Conta criada. Confirme o e-mail enviado e depois entre com sua senha.';
+        return;
+      }
+      cloudUser = result.data.user;
+      setSyncStatus('Carregando dadosâ€¦');
+      await loadCloudState();
+      toast('Conta conectada e dados sincronizados.');
+    } catch (error) {
+      byId('auth-message').textContent = error instanceof Error ? error.message : 'NÃ£o foi possÃ­vel entrar.';
+    } finally { button.disabled = false; }
+  });
+
+  byId('month-picker').value = monthKey(isoToday);
+  byId('month-picker').addEventListener('change', render);
+  document.querySelectorAll('[data-bill-filter]').forEach(button => button.addEventListener('click', () => {
+    billFilter = button.dataset.billFilter;
+    document.querySelectorAll('[data-bill-filter]').forEach(item => item.classList.toggle('active', item === button));
+    render();
+  }));
+  byId('transaction-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const data = new FormData(form);
+    const amount = parseAmount(data.get('amount'));
+    if (!Number.isFinite(amount)) { toast('Digite um valor maior que zero.'); return; }
+    state.transactions.push({ id: crypto.randomUUID(), type: data.get('type'), description: String(data.get('description')).trim(), amount, date: data.get('date'), category: data.get('category'), person: data.get('person') });
+    saveState(); form.closest('dialog').close(); toast('LanÃ§amento salvo neste aparelho.');
+  });
+  byId('bill-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const form = event.currentTarget; const data = new FormData(form);
+    const amountValue = String(data.get('amount') || '').trim();
+    const amount = amountValue ? parseAmount(amountValue) : 0;
+    if (amountValue && !Number.isFinite(amount)) { toast('Confira o valor da conta.'); return; }
+    const dueDate = data.get('dueDate');
+    if (data.get('recurring')) {
+      state.recurringBills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person: data.get('person') });
+    } else {
+      state.bills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDate, person: data.get('person'), paid: false });
+    }
+    saveState(); form.closest('dialog').close(); toast('Conta e vencimento salvos.');
+  });
+  byId('import-file').addEventListener('change', event => {
+    importFile = event.target.files?.[0] || null;
+    byId('import-file-name').textContent = importFile ? importFile.name : 'Nenhum arquivo escolhido.';
+    byId('read-file-button').disabled = !importFile;
+    byId('import-message').textContent = '';
+    byId('import-results').hidden = true;
+  });
+  byId('read-file-button').addEventListener('click', async () => {
+    if (!importFile) return;
+    if (importFile.size > 15 * 1024 * 1024) { byId('import-message').textContent = 'O arquivo deve ter atÃ© 15 MB.'; return; }
+    const button = byId('read-file-button');
+    button.disabled = true; button.textContent = 'Lendo arquivoâ€¦';
+    byId('import-message').textContent = '';
+    try {
+      const rows = await extractFileRows(importFile);
+      const unique = new Map();
+      rows.map(row => candidateFromText(row, importFile.name)).filter(Boolean).forEach(item => unique.set(`${item.name}|${item.amount}|${item.dueDate}`, item));
+      pendingImports = [...unique.values()];
+      if (!pendingImports.length) {
+        byId('import-message').textContent = 'NÃ£o encontrei linhas com descriÃ§Ã£o, valor e vencimento. Se o PDF for digitalizado como imagem, serÃ¡ necessÃ¡rio OCR ou digitar os dados.';
+        byId('import-results').hidden = true;
+      } else renderImportCandidates();
+    } catch (error) {
+      byId('import-message').textContent = error instanceof Error ? error.message : 'NÃ£o foi possÃ­vel ler este arquivo.';
+      byId('import-results').hidden = true;
+    } finally {
+      button.disabled = false; button.textContent = 'Ler arquivo e sugerir contas';
+    }
+  });
+  byId('save-imported-button').addEventListener('click', () => {
+    const candidates = [...byId('import-candidates').querySelectorAll('.import-candidate')];
+    let savedCount = 0; let skippedCount = 0;
+    candidates.forEach(card => {
+      if (!card.querySelector('[data-import-include]').checked) return;
+      const name = card.querySelector('[data-import-name]').value.trim();
+      const amount = Number(card.querySelector('[data-import-amount]').value);
+      const dueDate = card.querySelector('[data-import-date]').value;
+      const person = card.querySelector('[data-import-person]').value;
+      if (!name || !Number.isFinite(amount) || amount < 0 || !dueDate) { skippedCount++; return; }
+      if (card.querySelector('[data-import-recurring]').checked) {
+        state.recurringBills.push({ id: crypto.randomUUID(), name, amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person });
+      } else state.bills.push({ id: crypto.randomUUID(), name, amount, dueDate, person, paid: false });
+      savedCount++;
+    });
+    if (!savedCount) { byId('import-message').textContent = skippedCount ? 'Revise os valores e as datas das contas selecionadas.' : 'Selecione ao menos uma conta para adicionar.'; return; }
+    billFilter = 'pending';
+    document.querySelectorAll('[data-bill-filter]').forEach(button => button.classList.toggle('active', button.dataset.billFilter === billFilter));
+    saveState();
+    byId('import-message').textContent = `${savedCount} conta${savedCount === 1 ? '' : 's'} adicionada${savedCount === 1 ? '' : 's'}${skippedCount ? `; ${skippedCount} ignorada${skippedCount === 1 ? '' : 's'} por dados invÃ¡lidos` : ''}.`;
+    toast('Contas adicionadas ao checklist.');
+    pendingImports = [];
+    byId('import-results').hidden = true;
+  });
+  document.addEventListener('change', event => {
+    const amountInput = event.target.closest('[data-bill-amount]');
+    if (amountInput) {
+      const amount = amountInput.value === '' ? 0 : Number(amountInput.value);
+      if (!Number.isFinite(amount) || amount < 0) { toast('Informe um valor vÃ¡lido para a conta.'); render(); return; }
+      const key = amountInput.dataset.billAmount;
+      if (key.startsWith('repeat:')) state.billAmounts[key] = amount;
+      else {
+        const bill = state.bills.find(item => `bill:${item.id}` === key);
+        if (bill) bill.amount = amount;
+      }
+      saveState(); toast('Valor deste mÃªs atualizado.');
+      return;
+    }
+    const checkbox = event.target.closest('[data-paid-toggle]');
+    if (!checkbox) return;
+    const key = checkbox.dataset.paidToggle;
+    if (key.startsWith('repeat:')) state.billPayments[key] = checkbox.checked;
+    else {
+      const bill = state.bills.find(item => `bill:${item.id}` === key);
+      if (bill) bill.paid = checkbox.checked;
+    }
+    saveState(); toast(checkbox.checked ? 'Conta marcada como paga.' : 'Conta voltou para pendentes.');
+  });
+  document.addEventListener('click', event => {
+    const repeatButton = event.target.closest('[data-repeat-bill]');
+    if (repeatButton) {
+      const bill = state.bills.find(item => item.id === repeatButton.dataset.repeatBill);
+      if (bill && !bill.repeatsAsId) {
+        const recurring = { id: crypto.randomUUID(), name: bill.name, amount: bill.amount, dueDay: Number(bill.dueDate.slice(8, 10)), startMonth: nextAvailableMonth(bill.dueDate), person: bill.person };
+        state.recurringBills.push(recurring);
+        bill.repeatsAsId = recurring.id;
+        saveState();
+        toast(`Conta adicionada aos recorrentes a partir de ${formatMonth(recurring.startMonth)}.`);
+      }
+      return;
+    }
+    const repeatTransaction = event.target.closest('[data-repeat-transaction]');
+    if (repeatTransaction) {
+      const transaction = state.transactions.find(item => item.id === repeatTransaction.dataset.repeatTransaction);
+      if (transaction && transaction.type === 'expense' && !transaction.repeatAccountId) {
+        const recurring = { id: crypto.randomUUID(), name: transaction.description, amount: transaction.amount, dueDay: Number(transaction.date.slice(8, 10)), startMonth: nextAvailableMonth(transaction.date), person: transaction.person, sourceTransactionId: transaction.id };
+        state.recurringBills.push(recurring);
+        transaction.repeatAccountId = recurring.id;
+        saveState();
+        toast(`Conta fixa mensal criada a partir de ${formatMonth(recurring.startMonth)}.`);
+      }
+      return;
+    }
+    const deleteBill = event.target.closest('[data-delete-bill]');
+    if (deleteBill) {
+      state.bills = state.bills.filter(item => item.id !== deleteBill.dataset.deleteBill);
+      saveState(); toast('Conta removida do checklist.');
+      return;
+    }
+    const deleteRecurringBill = event.target.closest('[data-delete-recurring-bill]');
+    if (deleteRecurringBill) {
+      const id = deleteRecurringBill.dataset.deleteRecurringBill;
+      const bill = state.recurringBills.find(item => item.id === id);
+      if (bill && confirm(`Apagar â€œ${bill.name}â€ das contas recorrentes? Ela deixarÃ¡ de aparecer nos prÃ³ximos meses.`)) {
+        state.recurringBills = state.recurringBills.filter(item => item.id !== id);
+        for (const key of Object.keys(state.billPayments)) if (key.startsWith(`repeat:${id}:`)) delete state.billPayments[key];
+        for (const key of Object.keys(state.billAmounts)) if (key.startsWith(`repeat:${id}:`)) delete state.billAmounts[key];
+        saveState(); toast('Conta recorrente removida dos prÃ³ximos meses.');
+      }
+      return;
+    }
+    const deleteButton = event.target.closest('[data-delete]');
+    if (deleteButton) { state.transactions = state.transactions.filter(item => item.id !== deleteButton.dataset.delete); saveState(); toast('LanÃ§amento excluÃ­do.'); }
+  });
+  byId('nav-bills').addEventListener('click', event => { event.preventDefault(); document.querySelector('.bills-panel').scrollIntoView({ behavior: 'smooth' }); });
+  byId('reset-data-button').addEventListener('click', resetAppData);
+
+  window.addEventListener('beforeinstallprompt', event => {
+    event.preventDefault(); installPrompt = event; byId('install-button').hidden = false;
+  });
+  byId('install-button').addEventListener('click', async () => {
+    if (!installPrompt) { toast('No iPhone: abra Compartilhar e escolha â€œAdicionar Ã  Tela de InÃ­cioâ€.'); return; }
+    installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; byId('install-button').hidden = true;
+  });
+  window.addEventListener('appinstalled', () => toast('Zelp foi instalado.'));
+  window.addEventListener('online', () => { if (cloudUser) syncCloudState(); });
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register('./service-worker.js').catch(() => {});
+  render();
+  initializeCloud();
+})();
+
