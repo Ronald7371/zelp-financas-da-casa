@@ -17,8 +17,8 @@ O app usa Supabase Auth e uma linha JSON por conta. Os dois celulares devem entr
    };
    ```
 
-6. Publique a pasta `pwa` em um endereço HTTPS. Para publicar atualizações automaticamente a partir do GitHub, conecte o repositório privado `Ronald7371/zelp-financas-da-casa` ao Cloudflare Pages e configure a raiz de saída como `/` (os arquivos do app estão na raiz do repositório publicado). Não use `file:///` para login, sincronização ou instalação PWA.
-7. Em **Authentication → URL Configuration**, defina o endereço HTTPS publicado como **Site URL** e inclua também `https://SEU-ENDERECO/**` em **Redirect URLs** para os links de confirmação voltarem ao app.
+6. O GitHub Pages já está configurado para publicar a branch `main` pela raiz do repositório em `https://ronald7371.github.io/zelp-financas-da-casa/`. Cada atualização na `main` é publicada automaticamente. O repositório está público para permitir o plano gratuito do Pages; não coloque dados financeiros, senhas ou chaves privadas no código. Não use `file:///` para login, sincronização ou instalação PWA.
+7. Em **Authentication → URL Configuration**, defina `https://ronald7371.github.io/zelp-financas-da-casa/` como **Site URL** e adicione `https://ronald7371.github.io/zelp-financas-da-casa/**` em **Redirect URLs** para os links de confirmação voltarem ao app.
 8. Abra o endereço HTTPS em cada celular, crie uma conta no primeiro e use o mesmo e-mail e senha no segundo.
 9. No iPhone, abra o endereço no Safari, toque em **Compartilhar → Adicionar à Tela de Início**. No Android, abra no Chrome e escolha **Instalar app** ou **Adicionar à tela inicial**.
 
@@ -37,3 +37,4 @@ O app usa Supabase Auth e uma linha JSON por conta. Os dois celulares devem entr
 - O Supabase Free pode pausar projetos inativos por uma semana. Consulte o plano vigente antes de depender do serviço sem interrupções.
 
 Os dados são gravados primeiro neste aparelho e enviados à nuvem automaticamente quando há conexão. Se a conexão cair enquanto o app estiver aberto, ele tenta sincronizar novamente quando a internet voltar. A atualização do outro aparelho ocorre em tempo real quando ambos estão conectados; ao reabrir o app, ele também carrega o estado mais recente.
+
