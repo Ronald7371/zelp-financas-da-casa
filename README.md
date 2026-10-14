@@ -56,5 +56,5 @@ O cache offline cobre os arquivos da interface. Com uma sessão autenticada aber
 
 ## Importação de contas
 
-XML e HTML são lidos localmente no navegador. A importação sugere linhas que contenham descrição, valor e vencimento; confira e edite cada sugestão antes de salvar. O usuário escolhe se cada item entra como conta do mês ou como modelo recorrente mensal. O arquivo não é enviado para um servidor. A extração de texto de PDF usa PDF.js carregado por HTTPS, então requer que o app esteja hospedado em HTTPS; não funciona quando aberto diretamente por `file://`. PDFs digitalizados como imagem precisam de OCR, que ainda não está incluído.
+CSV, XML e HTML são lidos localmente no navegador. Baixe `modelo-contas.csv` na tela de importação e preencha uma linha por conta. As colunas reconhecidas são `nome`, `valor`, `vencimento`, `responsavel` e `recorrente`; use `sim` para guardar o título como conta mensal e `não` para importar apenas uma ocorrência. O app mapeia os títulos recorrentes para os próximos meses, permite ajustar os valores mensais e atualiza a base quando o mesmo título recorrente for importado novamente. Revise e edite cada sugestão antes de salvar; o arquivo não é enviado a um servidor. PDFs usam PDF.js por HTTPS e arquivos digitalizados como imagem precisam de OCR, que ainda não está incluído.
 
