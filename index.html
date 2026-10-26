@@ -110,7 +110,7 @@
       <div class="segmented"><label><input type="radio" name="type" value="expense" checked><span>Saída</span></label><label><input type="radio" name="type" value="income"><span>Entrada</span></label></div>
       <label>Descrição<input name="description" required maxlength="70" placeholder="Ex.: mercado, salário"></label>
       <div class="form-row"><label>Valor (R$)<input name="amount" required inputmode="decimal" placeholder="0,00"></label><label>Data<input name="date" required type="date"></label></div>
-      <div class="form-row"><label>Categoria<select name="category"><option>Moradia</option><option>Financiamento</option><option>Alimentação</option><option>Carro/Moto</option><option>Cartão de crédito</option><option>Dízimos/Ofertas</option><option>Transporte</option><option>Saúde</option><option>Lazer</option><option>Educação</option><option>Salário</option><option>Outros</option></select></label><label>Quem<select name="person"><option>Casa</option><option>Letícia</option><option>Ronald</option></select></label></div>
+      <div class="form-row"><label>Categoria<select name="category"><option>Moradia</option><option>Financiamento</option><option>Alimentação</option><option>Carro/Moto</option><option>Cartão de crédito</option><option>Dízimos/Ofertas</option><option>Transporte</option><option>Saúde</option><option>Lazer</option><option>Educação</option><option>Salário</option><option>Outros</option></select></label><label>Quem<input name="person" list="people-options" maxlength="70" placeholder="Digite ou escolha um nome" value="Casa"></label></div>
       <button class="primary-button" type="submit">Salvar lançamento</button>
     </form>
   </dialog>
@@ -120,7 +120,7 @@
       <div class="dialog-heading"><div><p class="eyebrow">LEMBRETE</p><h2>Adicionar conta</h2></div><button class="close-button" type="button" data-close aria-label="Fechar">×</button></div>
       <label>Nome da conta<input name="name" required maxlength="70" placeholder="Ex.: luz, água, condomínio"></label>
       <div class="form-row"><label>Valor previsto (R$)<input name="amount" inputmode="decimal" placeholder="0,00"></label><label>Vencimento<input name="dueDate" required type="date"></label></div>
-      <label>Responsável<select name="person"><option>Casa</option><option>Letícia</option><option>Ronald</option></select></label>
+      <label>Responsável<input name="person" list="people-options" maxlength="70" placeholder="Digite ou escolha um nome" value="Casa"></label>
       <label class="form-check"><input name="recurring" type="checkbox"><span>Repetir esta conta todos os meses</span></label>
       <button class="primary-button" type="submit">Salvar conta</button>
     </form>
@@ -151,10 +151,11 @@
       <button id="auth-mode-toggle" class="text-button auth-toggle" type="button">Criar conta da casa</button>
     </form>
   </dialog>
+  <datalist id="people-options"><option value="Casa"></option></datalist>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="backend-config.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script src="app.js?v=20261014-3" defer></script>
+  <script src="app.js?v=20261025-people" defer></script>
 </body>
 </html>
 
