@@ -212,6 +212,8 @@
   function escapeSelector(value) { return CSS.escape(value); }
 
   function render() {
+    const people = [...new Set(['Casa', ...state.transactions.map(item => item.person), ...state.bills.map(item => item.person), ...state.recurringBills.map(item => item.person)].filter(Boolean))];
+    byId('people-options').innerHTML = people.map(person => `<option value="${escapeHtml(person)}"></option>`).join('');
     const month = selectedMonth();
     const txs = state.transactions.filter(item => monthKey(item.date) === month).sort((a, b) => b.date.localeCompare(a.date));
     const incomes = txs.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
@@ -373,7 +375,7 @@
         else continue;
       }
       const responsible = String(cells[personIndex] || '').trim();
-      const person = ['Casa', 'Letícia', 'Ronald'].find(option => normalizeAccountTitle(option) === normalizeAccountTitle(responsible)) || 'Casa';
+      const person = responsible.slice(0, 70) || 'Casa';
       const recurrence = normalizeAccountTitle(cells[recurringIndex] || '');
       candidates.push({ id: crypto.randomUUID(), name: name.slice(0, 70), amount, dueDate, person, recurring: ['sim', 's', 'yes', 'true', '1', 'mensal', 'fixo', 'fixa'].includes(recurrence), include: true });
     }
@@ -427,7 +429,7 @@
   }
   function renderImportCandidates() {
     const list = byId('import-candidates');
-    list.innerHTML = pendingImports.map((item, index) => `<article class="import-candidate" data-import-index="${index}"><label class="candidate-select"><input type="checkbox" data-import-include ${item.include ? 'checked' : ''}><span>Adicionar</span></label><label>Conta<input data-import-name maxlength="70" value="${escapeHtml(item.name)}"></label><div class="form-row"><label>Valor (R$)<input data-import-amount type="number" min="0" step="0.01" value="${Number(item.amount).toFixed(2)}"></label><label>Vencimento<input data-import-date type="date" value="${escapeHtml(item.dueDate)}"></label></div><label>Responsável<select data-import-person>${['Casa', 'Letícia', 'Ronald'].map(person => `<option ${item.person === person ? 'selected' : ''}>${person}</option>`).join('')}</select></label><label class="form-check"><input data-import-recurring type="checkbox" ${item.recurring ? 'checked' : ''}><span>Guardar título como conta mensal</span></label></article>`).join('');
+    list.innerHTML = pendingImports.map((item, index) => `<article class="import-candidate" data-import-index="${index}"><label class="candidate-select"><input type="checkbox" data-import-include ${item.include ? 'checked' : ''}><span>Adicionar</span></label><label>Conta<input data-import-name maxlength="70" value="${escapeHtml(item.name)}"></label><div class="form-row"><label>Valor (R$)<input data-import-amount type="number" min="0" step="0.01" value="${Number(item.amount).toFixed(2)}"></label><label>Vencimento<input data-import-date type="date" value="${escapeHtml(item.dueDate)}"></label></div><label>Responsável<input data-import-person list="people-options" maxlength="70" value="${escapeHtml(item.person)}" placeholder="Digite ou escolha um nome"></label><label class="form-check"><input data-import-recurring type="checkbox" ${item.recurring ? 'checked' : ''}><span>Guardar título como conta mensal</span></label></article>`).join('');
     byId('import-summary').textContent = `${pendingImports.length} sugest${pendingImports.length === 1 ? 'ão encontrada' : 'ões encontradas'}. Confira descrição, valor e vencimento; escolha quais devem se repetir.`;
     byId('import-results').hidden = false;
   }
@@ -524,7 +526,7 @@
     const data = new FormData(form);
     const amount = parseAmount(data.get('amount'));
     if (!Number.isFinite(amount)) { toast('Digite um valor maior que zero.'); return; }
-    state.transactions.push({ id: crypto.randomUUID(), type: data.get('type'), description: String(data.get('description')).trim(), amount, date: data.get('date'), category: data.get('category'), person: data.get('person') });
+    state.transactions.push({ id: crypto.randomUUID(), type: data.get('type'), description: String(data.get('description')).trim(), amount, date: data.get('date'), category: data.get('category'), person: String(data.get('person') || '').trim() || 'Casa' });
     saveState(); form.closest('dialog').close(); toast('Lançamento salvo neste aparelho.');
   });
   byId('bill-form').addEventListener('submit', event => {
@@ -535,9 +537,9 @@
     if (amountValue && !Number.isFinite(amount)) { toast('Confira o valor da conta.'); return; }
     const dueDate = data.get('dueDate');
     if (data.get('recurring')) {
-      state.recurringBills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person: data.get('person') });
+      state.recurringBills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDay: Number(dueDate.slice(8, 10)), startMonth: monthKey(dueDate), person: String(data.get('person') || '').trim() || 'Casa' });
     } else {
-      state.bills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDate, person: data.get('person'), paid: false });
+      state.bills.push({ id: crypto.randomUUID(), name: String(data.get('name')).trim(), amount, dueDate, person: String(data.get('person') || '').trim() || 'Casa', paid: false });
     }
     saveState(); form.closest('dialog').close(); toast('Conta e vencimento salvos.');
   });
@@ -579,7 +581,7 @@
       const name = card.querySelector('[data-import-name]').value.trim();
       const amount = Number(card.querySelector('[data-import-amount]').value);
       const dueDate = card.querySelector('[data-import-date]').value;
-      const person = card.querySelector('[data-import-person]').value;
+      const person = card.querySelector('[data-import-person]').value.trim() || 'Casa';
       if (!name || !Number.isFinite(amount) || amount < 0 || !dueDate) { skippedCount++; return; }
       if (card.querySelector('[data-import-recurring]').checked) {
         const titleKey = normalizeAccountTitle(name);
