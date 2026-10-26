@@ -213,7 +213,20 @@
 
   function render() {
     const people = [...new Set(['Casa', ...state.transactions.map(item => item.person), ...state.bills.map(item => item.person), ...state.recurringBills.map(item => item.person)].filter(Boolean))];
-    byId('people-options').innerHTML = people.map(person => `<option value="${escapeHtml(person)}"></option>`).join('');
+    let peopleOptions = byId('people-options');
+    if (!peopleOptions) {
+      peopleOptions = document.createElement('datalist');
+      peopleOptions.id = 'people-options';
+      document.body.appendChild(peopleOptions);
+    }
+    document.querySelectorAll('select[name="person"]').forEach(select => {
+      const input = document.createElement('input');
+      input.name = 'person'; input.value = 'Casa'; input.maxLength = 70;
+      input.setAttribute('list', 'people-options');
+      input.placeholder = 'Digite ou escolha um nome';
+      select.replaceWith(input);
+    });
+    peopleOptions.innerHTML = people.map(person => `<option value="${escapeHtml(person)}"></option>`).join('');
     const month = selectedMonth();
     const txs = state.transactions.filter(item => monthKey(item.date) === month).sort((a, b) => b.date.localeCompare(a.date));
     const incomes = txs.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
