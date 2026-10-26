@@ -211,6 +211,17 @@
   }
   function escapeSelector(value) { return CSS.escape(value); }
 
+
+  function transactionsForMonth(month) {
+    const recorded = state.transactions.filter(item => monthKey(item.date) === month);
+    const payments = billsForMonth(month).filter(bill => bill.paid && Number(bill.amount) > 0).map(bill => ({
+      id: `payment:${bill.id}`, type: 'expense', description: bill.name,
+      amount: Number(bill.amount), date: bill.dueDate, category: 'Contas pagas',
+      person: bill.person, billPayment: true
+    }));
+    return [...recorded, ...payments].sort((a, b) => b.date.localeCompare(a.date));
+  }
+
   function render() {
     const people = [...new Set(['Casa', ...state.transactions.map(item => item.person), ...state.bills.map(item => item.person), ...state.recurringBills.map(item => item.person)].filter(Boolean))];
     let peopleOptions = byId('people-options');
@@ -228,7 +239,7 @@
     });
     peopleOptions.innerHTML = people.map(person => `<option value="${escapeHtml(person)}"></option>`).join('');
     const month = selectedMonth();
-    const txs = state.transactions.filter(item => monthKey(item.date) === month).sort((a, b) => b.date.localeCompare(a.date));
+    const txs = transactionsForMonth(month);
     const incomes = txs.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
     const expenses = txs.filter(item => item.type === 'expense').reduce((sum, item) => sum + item.amount, 0);
     byId('income-value').textContent = money.format(incomes);
@@ -276,10 +287,10 @@
         const received = items.filter(item => item.type === 'income').reduce((sum, item) => sum + item.amount, 0);
         const totalsLabel = [spent ? `− ${money.format(spent)}` : '', received ? `+ ${money.format(received)}` : ''].filter(Boolean).join(' · ');
         const rows = items.map(item => {
-          const recurringAction = item.type !== 'expense' ? '' : item.repeatAccountId
+          const recurringAction = item.billPayment ? '<small class="fixed-note">Pagamento de conta · desmarque em Contas para desfazer</small>' : item.type !== 'expense' ? '' : item.repeatAccountId
             ? '<small class="fixed-note">Conta fixa mensal</small>'
             : `<button class="repeat-button" data-repeat-transaction="${escapeHtml(item.id)}">Usar como conta fixa mensal</button>`;
-          return `<div class="transaction-row"><span class="item-icon ${item.type}" aria-hidden="true">${item.type === 'income' ? '↗' : '↘'}</span><div class="item-details"><strong>${escapeHtml(item.description)}</strong><small>${escapeHtml(item.person)} · ${formatDate(item.date)}</small>${recurringAction}</div><div class="item-value">${item.type === 'income' ? '+' : '−'} ${money.format(item.amount)}</div><button class="pay-button" data-delete="${escapeHtml(item.id)}" aria-label="Excluir lançamento ${escapeHtml(item.description)}">Excluir</button></div>`;
+          return `<div class="transaction-row"><span class="item-icon ${item.type}" aria-hidden="true">${item.type === 'income' ? '↗' : '↘'}</span><div class="item-details"><strong>${escapeHtml(item.description)}</strong><small>${escapeHtml(item.person)} · ${formatDate(item.date)}</small>${recurringAction}</div><div class="item-value">${item.type === 'income' ? '+' : '−'} ${money.format(item.amount)}</div>${item.billPayment ? '' : `<button class="pay-button" data-delete="${escapeHtml(item.id)}" aria-label="Excluir lançamento ${escapeHtml(item.description)}">Excluir</button>`}</div>`;
         }).join('');
         return `<details class="transaction-group"><summary><span class="group-name">${escapeHtml(category)}</span><span class="group-count">${items.length} lançamento${items.length === 1 ? '' : 's'}</span><span class="group-total">${totalsLabel}</span></summary><div class="transaction-group-items">${rows}</div></details>`;
       }).join('');
@@ -539,6 +550,12 @@
     const data = new FormData(form);
     const amount = parseAmount(data.get('amount'));
     if (!Number.isFinite(amount)) { toast('Digite um valor maior que zero.'); return; }
+    if (data.get('type') === 'expense') {
+      const duplicate = transactionsForMonth(monthKey(data.get('date'))).find(item =>
+        item.billPayment && normalizeAccountTitle(item.description) === normalizeAccountTitle(String(data.get('description')).trim()) &&
+        item.amount === amount && item.person === (String(data.get('person') || '').trim() || 'Casa'));
+      if (duplicate && !confirm('Esta conta já foi contabilizada ao marcar como paga. Deseja registrar uma saída adicional com o mesmo nome e valor?')) return;
+    }
     state.transactions.push({ id: crypto.randomUUID(), type: data.get('type'), description: String(data.get('description')).trim(), amount, date: data.get('date'), category: data.get('category'), person: String(data.get('person') || '').trim() || 'Casa' });
     saveState(); form.closest('dialog').close(); toast('Lançamento salvo neste aparelho.');
   });
@@ -636,6 +653,14 @@
     const checkbox = event.target.closest('[data-paid-toggle]');
     if (!checkbox) return;
     const key = checkbox.dataset.paidToggle;
+    if (checkbox.checked) {
+      const bill = billsForMonth(selectedMonth()).find(item => (item.recurring ? `repeat:${item.templateId}:${selectedMonth()}` : `bill:${item.id}`) === key);
+      const existing = bill && state.transactions.find(item => item.type === 'expense' && monthKey(item.date) === selectedMonth() &&
+        normalizeAccountTitle(item.description) === normalizeAccountTitle(bill.name) && Number(item.amount) === Number(bill.amount) && item.person === bill.person);
+      if (existing && !confirm('Já existe uma saída com o mesmo nome, valor e responsável neste mês. Marcar esta conta como paga adicionará outra despesa. Continuar?')) {
+        checkbox.checked = false; return;
+      }
+    }
     if (key.startsWith('repeat:')) state.billPayments[key] = checkbox.checked;
     else {
       const bill = state.bills.find(item => `bill:${item.id}` === key);
