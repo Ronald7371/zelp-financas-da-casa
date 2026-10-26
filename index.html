@@ -72,7 +72,7 @@
               <button type="button" data-bill-filter="paid">Pagas</button>
               <button type="button" data-bill-filter="all">Todas</button>
             </div>
-            <p class="bill-help">Marque quando pagar. Estas contas são lembretes; para entrar nos totais, registre a saída em “+ Lançamento”.</p>
+            <p class="bill-help">Ao marcar uma conta como paga, o valor entra nas saídas e reduz o saldo do mês do vencimento. Não registre o mesmo pagamento em “+ Lançamento”. Ao desmarcar, o desconto é desfeito.</p>
             <div id="bills-list" class="bills-list"></div>
             <div class="activity-divider"></div>
             <div class="activity-transactions-heading">
@@ -155,7 +155,7 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="backend-config.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script src="app.js?v=20261025-people" defer></script>
+  <script src="app.js?v=20261025-payments" defer></script>
 </body>
 </html>
 
